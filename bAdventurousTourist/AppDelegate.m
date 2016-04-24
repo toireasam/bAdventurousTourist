@@ -1,22 +1,54 @@
-//
 //  AppDelegate.m
-//  bAdventurousTourist
-//
-//  Created by Toireasa Moley on 24/04/2016.
-//  Copyright © 2016 Toireasa Moley. All rights reserved.
-//
-
 #import "AppDelegate.h"
+#import <EstimoteSDK/EstimoteSDK.h>
+#import "Parse/Parse.h"
+#import "ParseUI/PFImageView.h"
+#import "LoginViewController.h"
 
-@interface AppDelegate ()
+@interface AppDelegate () <ESTBeaconManagerDelegate>
+
+@property (nonatomic) ESTBeaconManager *beaconManager;
 
 @end
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    [PFImageView class];
+    
+    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
+    
+    // Key to interact with Parse API
+    [Parse enableLocalDatastore];
+    [Parse setApplicationId:@"ZoFHgn6IfSnsuYTSkvZOkecTejs8Wa00dpEWU6go"
+                  clientKey:@"RcYERJZfY2fDRpmz48rs7i6DpLWshMtuMliLA5qP"];
+    
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    
+    // Set up the beacon region to monitor
+    self.beaconManager = [ESTBeaconManager new];
+    self.beaconManager.delegate = self;
+    [self.beaconManager requestAlwaysAuthorization];
+    [self.beaconManager startMonitoringForRegion:[[CLBeaconRegion alloc]
+                                                  initWithProximityUUID:[[NSUUID alloc]
+                                                                         initWithUUIDString:@"8492E75F-4FD6-469D-B132-043FE94921D8"]
+                                                  major:3059 minor:17204 identifier:@"monitored region"]];
+    
+    [[UIApplication sharedApplication]
+     registerUserNotificationSettings:[UIUserNotificationSettings
+                                       settingsForTypes:UIUserNotificationTypeAlert
+                                       categories:nil]];
+    
+    [[UITabBar appearance] setTintColor:[UIColor darkGrayColor]];
+    
+    // Present login screen if user has not yet logged in
+    NSUserDefaults *standardDefaults = [NSUserDefaults standardUserDefaults];
+    if ([[standardDefaults stringForKey:@"loggedin"] isEqual: @"out"])
+    {
+        [self showLoginScreen:YES];
+    }
+    
     return YES;
 }
 
@@ -40,6 +72,25 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (void)beaconManager:(id)manager didEnterRegion:(CLBeaconRegion *)region {
+    
+    // Present notification to user on entry of region
+    UILocalNotification *notification = [UILocalNotification new];
+    notification.alertBody =
+    @"Welcome to the Ulster Museum!";
+    [[UIApplication sharedApplication] presentLocalNotificationNow:notification];
+}
+
+-(void) showLoginScreen:(BOOL)animated
+{
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    LoginViewController *viewController = (LoginViewController *)[storyboard instantiateViewControllerWithIdentifier:@"loginScreen"];
+    [self.window makeKeyAndVisible];
+    [self.window.rootViewController presentViewController:viewController
+                                                 animated:animated
+                                               completion:nil];
 }
 
 @end

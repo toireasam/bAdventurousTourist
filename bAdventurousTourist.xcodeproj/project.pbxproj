@@ -9,12 +9,55 @@
 /* Begin PBXBuildFile section */
 		B2CD75F41CCCF81A00428164 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD75F31CCCF81A00428164 /* main.m */; };
 		B2CD75F71CCCF81A00428164 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD75F61CCCF81A00428164 /* AppDelegate.m */; };
-		B2CD75FA1CCCF81A00428164 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD75F91CCCF81A00428164 /* ViewController.m */; };
 		B2CD75FD1CCCF81A00428164 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2CD75FB1CCCF81A00428164 /* Main.storyboard */; };
 		B2CD75FF1CCCF81A00428164 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2CD75FE1CCCF81A00428164 /* Assets.xcassets */; };
 		B2CD76021CCCF81A00428164 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2CD76001CCCF81A00428164 /* LaunchScreen.storyboard */; };
 		B2CD760D1CCCF81A00428164 /* bAdventurousTouristTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD760C1CCCF81A00428164 /* bAdventurousTouristTests.m */; };
 		B2CD76181CCCF81A00428164 /* bAdventurousTouristUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD76171CCCF81A00428164 /* bAdventurousTouristUITests.m */; };
+		B2CD76281CCCF85600428164 /* EstimoteSDK in Resources */ = {isa = PBXBuildFile; fileRef = B2CD76271CCCF85600428164 /* EstimoteSDK */; };
+		B2CD762E1CCCF92B00428164 /* EstimoteSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2CD762D1CCCF92B00428164 /* EstimoteSDK.framework */; };
+		B2CD76301CCCF97400428164 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2CD762F1CCCF97400428164 /* AudioToolbox.framework */; };
+		B2CD76321CCCF97D00428164 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2CD76311CCCF97D00428164 /* CFNetwork.framework */; };
+		B2CD76341CCCF98500428164 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2CD76331CCCF98500428164 /* CoreGraphics.framework */; };
+		B2CD76361CCCF98B00428164 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2CD76351CCCF98B00428164 /* QuartzCore.framework */; };
+		B2CD76381CCCF99100428164 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2CD76371CCCF99100428164 /* Security.framework */; };
+		B2CD763A1CCCF99900428164 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2CD76391CCCF99900428164 /* StoreKit.framework */; };
+		B2CD763C1CCCF9A700428164 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2CD763B1CCCF9A700428164 /* CoreLocation.framework */; };
+		B2CD763E1CCCF9BA00428164 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2CD763D1CCCF9BA00428164 /* SystemConfiguration.framework */; };
+		B2CD76401CCCF9C100428164 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B2CD763F1CCCF9C100428164 /* libz.tbd */; };
+		B2CD76421CCCF9CA00428164 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B2CD76411CCCF9CA00428164 /* libsqlite3.tbd */; };
+		B2CD764A1CCCF9F000428164 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2CD76431CCCF9F000428164 /* Bolts.framework */; };
+		B2CD764B1CCCF9F000428164 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2CD76441CCCF9F000428164 /* Parse.framework */; };
+		B2CD764C1CCCF9F000428164 /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2CD76451CCCF9F000428164 /* ParseCrashReporting.framework */; };
+		B2CD764D1CCCF9F000428164 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2CD76461CCCF9F000428164 /* ParseFacebookUtils.framework */; };
+		B2CD764E1CCCF9F000428164 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2CD76471CCCF9F000428164 /* ParseFacebookUtilsV4.framework */; };
+		B2CD764F1CCCF9F000428164 /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2CD76481CCCF9F000428164 /* ParseTwitterUtils.framework */; };
+		B2CD76501CCCF9F000428164 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2CD76491CCCF9F000428164 /* ParseUI.framework */; };
+		B2CD76531CCCFA2600428164 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD76521CCCFA2600428164 /* LoginViewController.m */; };
+		B2CD76591CCCFAC100428164 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD76581CCCFAC100428164 /* iCarousel.m */; };
+		B2CD765D1CCCFB7300428164 /* InsideAttractionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD765C1CCCFB7300428164 /* InsideAttractionViewController.m */; };
+		B2CD76631CCCFBAF00428164 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD76621CCCFBAF00428164 /* User.m */; };
+		B2CD76681CCCFC4800428164 /* TouristLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD76671CCCFC4800428164 /* TouristLocation.m */; };
+		B2CD766B1CCCFC9400428164 /* NearablesParseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD766A1CCCFC9400428164 /* NearablesParseManager.m */; };
+		B2CD766E1CCCFCDF00428164 /* BeaconParseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD766D1CCCFCDF00428164 /* BeaconParseManager.m */; };
+		B2CD76711CCCFD4600428164 /* TouristLocationArtefact.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD76701CCCFD4600428164 /* TouristLocationArtefact.m */; };
+		B2CD76741CCCFD7500428164 /* LanguageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD76731CCCFD7500428164 /* LanguageManager.m */; };
+		B2CD768E1CCCFF1900428164 /* AJWNumericValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD76781CCCFF1900428164 /* AJWNumericValidator.m */; };
+		B2CD768F1CCCFF1900428164 /* AJWStringValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD767A1CCCFF1900428164 /* AJWStringValidator.m */; };
+		B2CD76901CCCFF1900428164 /* AJWValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD767C1CCCFF1900428164 /* AJWValidator.m */; };
+		B2CD76911CCCFF1900428164 /* AJWValidatorCustomRule.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD767F1CCCFF1900428164 /* AJWValidatorCustomRule.m */; };
+		B2CD76921CCCFF1900428164 /* AJWValidatorEqualRule.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD76811CCCFF1900428164 /* AJWValidatorEqualRule.m */; };
+		B2CD76931CCCFF1900428164 /* AJWValidatorRangeRule.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD76831CCCFF1900428164 /* AJWValidatorRangeRule.m */; };
+		B2CD76941CCCFF1900428164 /* AJWValidatorRegularExpressionRule.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD76851CCCFF1900428164 /* AJWValidatorRegularExpressionRule.m */; };
+		B2CD76951CCCFF1900428164 /* AJWValidatorRemoteRule.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD76871CCCFF1900428164 /* AJWValidatorRemoteRule.m */; };
+		B2CD76961CCCFF1900428164 /* AJWValidatorRequiredRule.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD76891CCCFF1900428164 /* AJWValidatorRequiredRule.m */; };
+		B2CD76971CCCFF1900428164 /* AJWValidatorRule.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD768B1CCCFF1900428164 /* AJWValidatorRule.m */; };
+		B2CD76981CCCFF1900428164 /* UIView+AJWValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD768D1CCCFF1900428164 /* UIView+AJWValidator.m */; };
+		B2CD769E1CCCFFB500428164 /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD769D1CCCFFB500428164 /* SignupViewController.m */; };
+		B2CD76A11CCCFFBF00428164 /* TouristLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD76A01CCCFFBF00428164 /* TouristLocationViewController.m */; };
+		B2CD76A41CCD006C00428164 /* FurtherInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD76A31CCD006C00428164 /* FurtherInfoViewController.m */; };
+		B2CD76A71CCD008E00428164 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD76A61CCD008E00428164 /* SettingsViewController.m */; };
+		B2CD76A91CCD075300428164 /* b.png in Resources */ = {isa = PBXBuildFile; fileRef = B2CD76A81CCD075300428164 /* b.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +82,6 @@
 		B2CD75F31CCCF81A00428164 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B2CD75F51CCCF81A00428164 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B2CD75F61CCCF81A00428164 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B2CD75F81CCCF81A00428164 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B2CD75F91CCCF81A00428164 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B2CD75FC1CCCF81A00428164 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B2CD75FE1CCCF81A00428164 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2CD76011CCCF81A00428164 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +92,75 @@
 		B2CD76131CCCF81A00428164 /* bAdventurousTouristUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bAdventurousTouristUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2CD76171CCCF81A00428164 /* bAdventurousTouristUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bAdventurousTouristUITests.m; sourceTree = "<group>"; };
 		B2CD76191CCCF81A00428164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2CD76271CCCF85600428164 /* EstimoteSDK */ = {isa = PBXFileReference; lastKnownFileType = folder; path = EstimoteSDK; sourceTree = "<group>"; };
+		B2CD762D1CCCF92B00428164 /* EstimoteSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EstimoteSDK.framework; path = EstimoteSDK/EstimoteSDK.framework; sourceTree = "<group>"; };
+		B2CD762F1CCCF97400428164 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B2CD76311CCCF97D00428164 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		B2CD76331CCCF98500428164 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B2CD76351CCCF98B00428164 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B2CD76371CCCF99100428164 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B2CD76391CCCF99900428164 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		B2CD763B1CCCF9A700428164 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B2CD763D1CCCF9BA00428164 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B2CD763F1CCCF9C100428164 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		B2CD76411CCCF9CA00428164 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		B2CD76431CCCF9F000428164 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "parse-library-1/Bolts.framework"; sourceTree = "<group>"; };
+		B2CD76441CCCF9F000428164 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "parse-library-1/Parse.framework"; sourceTree = "<group>"; };
+		B2CD76451CCCF9F000428164 /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseCrashReporting.framework; path = "parse-library-1/ParseCrashReporting.framework"; sourceTree = "<group>"; };
+		B2CD76461CCCF9F000428164 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtils.framework; path = "parse-library-1/ParseFacebookUtils.framework"; sourceTree = "<group>"; };
+		B2CD76471CCCF9F000428164 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtilsV4.framework; path = "parse-library-1/ParseFacebookUtilsV4.framework"; sourceTree = "<group>"; };
+		B2CD76481CCCF9F000428164 /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseTwitterUtils.framework; path = "parse-library-1/ParseTwitterUtils.framework"; sourceTree = "<group>"; };
+		B2CD76491CCCF9F000428164 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = "parse-library-1/ParseUI.framework"; sourceTree = "<group>"; };
+		B2CD76511CCCFA2600428164 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = ../LoginViewController.h; sourceTree = "<group>"; };
+		B2CD76521CCCFA2600428164 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = ../LoginViewController.m; sourceTree = "<group>"; };
+		B2CD76571CCCFAC100428164 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iCarousel.h; path = "../../Downloads/iCarousel-master 2/iCarousel/iCarousel.h"; sourceTree = "<group>"; };
+		B2CD76581CCCFAC100428164 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iCarousel.m; path = "../../Downloads/iCarousel-master 2/iCarousel/iCarousel.m"; sourceTree = "<group>"; };
+		B2CD765B1CCCFB7300428164 /* InsideAttractionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsideAttractionViewController.h; sourceTree = "<group>"; };
+		B2CD765C1CCCFB7300428164 /* InsideAttractionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsideAttractionViewController.m; sourceTree = "<group>"; };
+		B2CD76611CCCFBAF00428164 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = ../User.h; sourceTree = "<group>"; };
+		B2CD76621CCCFBAF00428164 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = ../User.m; sourceTree = "<group>"; };
+		B2CD76661CCCFC4800428164 /* TouristLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouristLocation.h; sourceTree = "<group>"; };
+		B2CD76671CCCFC4800428164 /* TouristLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouristLocation.m; sourceTree = "<group>"; };
+		B2CD76691CCCFC9400428164 /* NearablesParseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearablesParseManager.h; sourceTree = "<group>"; };
+		B2CD766A1CCCFC9400428164 /* NearablesParseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearablesParseManager.m; sourceTree = "<group>"; };
+		B2CD766C1CCCFCDF00428164 /* BeaconParseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeaconParseManager.h; sourceTree = "<group>"; };
+		B2CD766D1CCCFCDF00428164 /* BeaconParseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconParseManager.m; sourceTree = "<group>"; };
+		B2CD766F1CCCFD4600428164 /* TouristLocationArtefact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouristLocationArtefact.h; sourceTree = "<group>"; };
+		B2CD76701CCCFD4600428164 /* TouristLocationArtefact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouristLocationArtefact.m; sourceTree = "<group>"; };
+		B2CD76721CCCFD7500428164 /* LanguageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LanguageManager.h; sourceTree = "<group>"; };
+		B2CD76731CCCFD7500428164 /* LanguageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LanguageManager.m; sourceTree = "<group>"; };
+		B2CD76771CCCFF1900428164 /* AJWNumericValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AJWNumericValidator.h; path = AJWValidator/AJWNumericValidator.h; sourceTree = "<group>"; };
+		B2CD76781CCCFF1900428164 /* AJWNumericValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AJWNumericValidator.m; path = AJWValidator/AJWNumericValidator.m; sourceTree = "<group>"; };
+		B2CD76791CCCFF1900428164 /* AJWStringValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AJWStringValidator.h; path = AJWValidator/AJWStringValidator.h; sourceTree = "<group>"; };
+		B2CD767A1CCCFF1900428164 /* AJWStringValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AJWStringValidator.m; path = AJWValidator/AJWStringValidator.m; sourceTree = "<group>"; };
+		B2CD767B1CCCFF1900428164 /* AJWValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AJWValidator.h; path = AJWValidator/AJWValidator.h; sourceTree = "<group>"; };
+		B2CD767C1CCCFF1900428164 /* AJWValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AJWValidator.m; path = AJWValidator/AJWValidator.m; sourceTree = "<group>"; };
+		B2CD767D1CCCFF1900428164 /* AJWValidator+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "AJWValidator+Private.h"; path = "AJWValidator/AJWValidator+Private.h"; sourceTree = "<group>"; };
+		B2CD767E1CCCFF1900428164 /* AJWValidatorCustomRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AJWValidatorCustomRule.h; path = AJWValidator/AJWValidatorCustomRule.h; sourceTree = "<group>"; };
+		B2CD767F1CCCFF1900428164 /* AJWValidatorCustomRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AJWValidatorCustomRule.m; path = AJWValidator/AJWValidatorCustomRule.m; sourceTree = "<group>"; };
+		B2CD76801CCCFF1900428164 /* AJWValidatorEqualRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AJWValidatorEqualRule.h; path = AJWValidator/AJWValidatorEqualRule.h; sourceTree = "<group>"; };
+		B2CD76811CCCFF1900428164 /* AJWValidatorEqualRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AJWValidatorEqualRule.m; path = AJWValidator/AJWValidatorEqualRule.m; sourceTree = "<group>"; };
+		B2CD76821CCCFF1900428164 /* AJWValidatorRangeRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AJWValidatorRangeRule.h; path = AJWValidator/AJWValidatorRangeRule.h; sourceTree = "<group>"; };
+		B2CD76831CCCFF1900428164 /* AJWValidatorRangeRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AJWValidatorRangeRule.m; path = AJWValidator/AJWValidatorRangeRule.m; sourceTree = "<group>"; };
+		B2CD76841CCCFF1900428164 /* AJWValidatorRegularExpressionRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AJWValidatorRegularExpressionRule.h; path = AJWValidator/AJWValidatorRegularExpressionRule.h; sourceTree = "<group>"; };
+		B2CD76851CCCFF1900428164 /* AJWValidatorRegularExpressionRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AJWValidatorRegularExpressionRule.m; path = AJWValidator/AJWValidatorRegularExpressionRule.m; sourceTree = "<group>"; };
+		B2CD76861CCCFF1900428164 /* AJWValidatorRemoteRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AJWValidatorRemoteRule.h; path = AJWValidator/AJWValidatorRemoteRule.h; sourceTree = "<group>"; };
+		B2CD76871CCCFF1900428164 /* AJWValidatorRemoteRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AJWValidatorRemoteRule.m; path = AJWValidator/AJWValidatorRemoteRule.m; sourceTree = "<group>"; };
+		B2CD76881CCCFF1900428164 /* AJWValidatorRequiredRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AJWValidatorRequiredRule.h; path = AJWValidator/AJWValidatorRequiredRule.h; sourceTree = "<group>"; };
+		B2CD76891CCCFF1900428164 /* AJWValidatorRequiredRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AJWValidatorRequiredRule.m; path = AJWValidator/AJWValidatorRequiredRule.m; sourceTree = "<group>"; };
+		B2CD768A1CCCFF1900428164 /* AJWValidatorRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AJWValidatorRule.h; path = AJWValidator/AJWValidatorRule.h; sourceTree = "<group>"; };
+		B2CD768B1CCCFF1900428164 /* AJWValidatorRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AJWValidatorRule.m; path = AJWValidator/AJWValidatorRule.m; sourceTree = "<group>"; };
+		B2CD768C1CCCFF1900428164 /* UIView+AJWValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+AJWValidator.h"; path = "AJWValidator/UIView+AJWValidator.h"; sourceTree = "<group>"; };
+		B2CD768D1CCCFF1900428164 /* UIView+AJWValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+AJWValidator.m"; path = "AJWValidator/UIView+AJWValidator.m"; sourceTree = "<group>"; };
+		B2CD769C1CCCFFB500428164 /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignupViewController.h; sourceTree = "<group>"; };
+		B2CD769D1CCCFFB500428164 /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignupViewController.m; sourceTree = "<group>"; };
+		B2CD769F1CCCFFBF00428164 /* TouristLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TouristLocationViewController.h; path = ../TouristLocationViewController.h; sourceTree = "<group>"; };
+		B2CD76A01CCCFFBF00428164 /* TouristLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TouristLocationViewController.m; path = ../TouristLocationViewController.m; sourceTree = "<group>"; };
+		B2CD76A21CCD006C00428164 /* FurtherInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FurtherInfoViewController.h; sourceTree = "<group>"; };
+		B2CD76A31CCD006C00428164 /* FurtherInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FurtherInfoViewController.m; sourceTree = "<group>"; };
+		B2CD76A51CCD008E00428164 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsViewController.h; path = ../SettingsViewController.h; sourceTree = "<group>"; };
+		B2CD76A61CCD008E00428164 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsViewController.m; path = ../SettingsViewController.m; sourceTree = "<group>"; };
+		B2CD76A81CCD075300428164 /* b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +168,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2CD76501CCCF9F000428164 /* ParseUI.framework in Frameworks */,
+				B2CD76421CCCF9CA00428164 /* libsqlite3.tbd in Frameworks */,
+				B2CD76401CCCF9C100428164 /* libz.tbd in Frameworks */,
+				B2CD763E1CCCF9BA00428164 /* SystemConfiguration.framework in Frameworks */,
+				B2CD764A1CCCF9F000428164 /* Bolts.framework in Frameworks */,
+				B2CD763C1CCCF9A700428164 /* CoreLocation.framework in Frameworks */,
+				B2CD764C1CCCF9F000428164 /* ParseCrashReporting.framework in Frameworks */,
+				B2CD763A1CCCF99900428164 /* StoreKit.framework in Frameworks */,
+				B2CD764B1CCCF9F000428164 /* Parse.framework in Frameworks */,
+				B2CD764D1CCCF9F000428164 /* ParseFacebookUtils.framework in Frameworks */,
+				B2CD76381CCCF99100428164 /* Security.framework in Frameworks */,
+				B2CD764E1CCCF9F000428164 /* ParseFacebookUtilsV4.framework in Frameworks */,
+				B2CD76361CCCF98B00428164 /* QuartzCore.framework in Frameworks */,
+				B2CD76341CCCF98500428164 /* CoreGraphics.framework in Frameworks */,
+				B2CD76321CCCF97D00428164 /* CFNetwork.framework in Frameworks */,
+				B2CD764F1CCCF9F000428164 /* ParseTwitterUtils.framework in Frameworks */,
+				B2CD76301CCCF97400428164 /* AudioToolbox.framework in Frameworks */,
+				B2CD762E1CCCF92B00428164 /* EstimoteSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +209,11 @@
 		B2CD75E61CCCF81A00428164 = {
 			isa = PBXGroup;
 			children = (
+				B2CD76A81CCD075300428164 /* b.png */,
+				B2CD76991CCCFF2D00428164 /* Validator */,
+				B2CD76561CCCFAB700428164 /* Carousel */,
+				B2CD76551CCCFA4A00428164 /* Estimote */,
+				B2CD76541CCCFA3D00428164 /* Parse */,
 				B2CD75F11CCCF81A00428164 /* bAdventurousTourist */,
 				B2CD760B1CCCF81A00428164 /* bAdventurousTouristTests */,
 				B2CD76161CCCF81A00428164 /* bAdventurousTouristUITests */,
@@ -101,10 +234,10 @@
 		B2CD75F11CCCF81A00428164 /* bAdventurousTourist */ = {
 			isa = PBXGroup;
 			children = (
+				B2CD76651CCCFBBD00428164 /* Models */,
+				B2CD76641CCCFBB400428164 /* Controllers */,
 				B2CD75F51CCCF81A00428164 /* AppDelegate.h */,
 				B2CD75F61CCCF81A00428164 /* AppDelegate.m */,
-				B2CD75F81CCCF81A00428164 /* ViewController.h */,
-				B2CD75F91CCCF81A00428164 /* ViewController.m */,
 				B2CD75FB1CCCF81A00428164 /* Main.storyboard */,
 				B2CD75FE1CCCF81A00428164 /* Assets.xcassets */,
 				B2CD76001CCCF81A00428164 /* LaunchScreen.storyboard */,
@@ -138,6 +271,116 @@
 				B2CD76191CCCF81A00428164 /* Info.plist */,
 			);
 			path = bAdventurousTouristUITests;
+			sourceTree = "<group>";
+		};
+		B2CD76541CCCFA3D00428164 /* Parse */ = {
+			isa = PBXGroup;
+			children = (
+				B2CD76411CCCF9CA00428164 /* libsqlite3.tbd */,
+				B2CD763F1CCCF9C100428164 /* libz.tbd */,
+				B2CD76431CCCF9F000428164 /* Bolts.framework */,
+				B2CD76441CCCF9F000428164 /* Parse.framework */,
+				B2CD76451CCCF9F000428164 /* ParseCrashReporting.framework */,
+				B2CD76461CCCF9F000428164 /* ParseFacebookUtils.framework */,
+				B2CD76471CCCF9F000428164 /* ParseFacebookUtilsV4.framework */,
+				B2CD76481CCCF9F000428164 /* ParseTwitterUtils.framework */,
+				B2CD76491CCCF9F000428164 /* ParseUI.framework */,
+				B2CD763D1CCCF9BA00428164 /* SystemConfiguration.framework */,
+				B2CD763B1CCCF9A700428164 /* CoreLocation.framework */,
+				B2CD76391CCCF99900428164 /* StoreKit.framework */,
+				B2CD76371CCCF99100428164 /* Security.framework */,
+				B2CD76351CCCF98B00428164 /* QuartzCore.framework */,
+				B2CD76331CCCF98500428164 /* CoreGraphics.framework */,
+				B2CD76311CCCF97D00428164 /* CFNetwork.framework */,
+				B2CD762F1CCCF97400428164 /* AudioToolbox.framework */,
+			);
+			name = Parse;
+			sourceTree = "<group>";
+		};
+		B2CD76551CCCFA4A00428164 /* Estimote */ = {
+			isa = PBXGroup;
+			children = (
+				B2CD76271CCCF85600428164 /* EstimoteSDK */,
+				B2CD762D1CCCF92B00428164 /* EstimoteSDK.framework */,
+			);
+			name = Estimote;
+			sourceTree = "<group>";
+		};
+		B2CD76561CCCFAB700428164 /* Carousel */ = {
+			isa = PBXGroup;
+			children = (
+				B2CD76571CCCFAC100428164 /* iCarousel.h */,
+				B2CD76581CCCFAC100428164 /* iCarousel.m */,
+			);
+			name = Carousel;
+			sourceTree = "<group>";
+		};
+		B2CD76641CCCFBB400428164 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B2CD769F1CCCFFBF00428164 /* TouristLocationViewController.h */,
+				B2CD76A01CCCFFBF00428164 /* TouristLocationViewController.m */,
+				B2CD769C1CCCFFB500428164 /* SignupViewController.h */,
+				B2CD769D1CCCFFB500428164 /* SignupViewController.m */,
+				B2CD76511CCCFA2600428164 /* LoginViewController.h */,
+				B2CD76521CCCFA2600428164 /* LoginViewController.m */,
+				B2CD765B1CCCFB7300428164 /* InsideAttractionViewController.h */,
+				B2CD76A21CCD006C00428164 /* FurtherInfoViewController.h */,
+				B2CD76A31CCD006C00428164 /* FurtherInfoViewController.m */,
+				B2CD765C1CCCFB7300428164 /* InsideAttractionViewController.m */,
+				B2CD76A51CCD008E00428164 /* SettingsViewController.h */,
+				B2CD76A61CCD008E00428164 /* SettingsViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		B2CD76651CCCFBBD00428164 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B2CD76611CCCFBAF00428164 /* User.h */,
+				B2CD76661CCCFC4800428164 /* TouristLocation.h */,
+				B2CD76691CCCFC9400428164 /* NearablesParseManager.h */,
+				B2CD766A1CCCFC9400428164 /* NearablesParseManager.m */,
+				B2CD766C1CCCFCDF00428164 /* BeaconParseManager.h */,
+				B2CD766D1CCCFCDF00428164 /* BeaconParseManager.m */,
+				B2CD766F1CCCFD4600428164 /* TouristLocationArtefact.h */,
+				B2CD76701CCCFD4600428164 /* TouristLocationArtefact.m */,
+				B2CD76721CCCFD7500428164 /* LanguageManager.h */,
+				B2CD76731CCCFD7500428164 /* LanguageManager.m */,
+				B2CD76671CCCFC4800428164 /* TouristLocation.m */,
+				B2CD76621CCCFBAF00428164 /* User.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		B2CD76991CCCFF2D00428164 /* Validator */ = {
+			isa = PBXGroup;
+			children = (
+				B2CD76771CCCFF1900428164 /* AJWNumericValidator.h */,
+				B2CD76781CCCFF1900428164 /* AJWNumericValidator.m */,
+				B2CD76791CCCFF1900428164 /* AJWStringValidator.h */,
+				B2CD767A1CCCFF1900428164 /* AJWStringValidator.m */,
+				B2CD767B1CCCFF1900428164 /* AJWValidator.h */,
+				B2CD767C1CCCFF1900428164 /* AJWValidator.m */,
+				B2CD767D1CCCFF1900428164 /* AJWValidator+Private.h */,
+				B2CD767E1CCCFF1900428164 /* AJWValidatorCustomRule.h */,
+				B2CD767F1CCCFF1900428164 /* AJWValidatorCustomRule.m */,
+				B2CD76801CCCFF1900428164 /* AJWValidatorEqualRule.h */,
+				B2CD76811CCCFF1900428164 /* AJWValidatorEqualRule.m */,
+				B2CD76821CCCFF1900428164 /* AJWValidatorRangeRule.h */,
+				B2CD76831CCCFF1900428164 /* AJWValidatorRangeRule.m */,
+				B2CD76841CCCFF1900428164 /* AJWValidatorRegularExpressionRule.h */,
+				B2CD76851CCCFF1900428164 /* AJWValidatorRegularExpressionRule.m */,
+				B2CD76861CCCFF1900428164 /* AJWValidatorRemoteRule.h */,
+				B2CD76871CCCFF1900428164 /* AJWValidatorRemoteRule.m */,
+				B2CD76881CCCFF1900428164 /* AJWValidatorRequiredRule.h */,
+				B2CD76891CCCFF1900428164 /* AJWValidatorRequiredRule.m */,
+				B2CD768A1CCCFF1900428164 /* AJWValidatorRule.h */,
+				B2CD768B1CCCFF1900428164 /* AJWValidatorRule.m */,
+				B2CD768C1CCCFF1900428164 /* UIView+AJWValidator.h */,
+				B2CD768D1CCCFF1900428164 /* UIView+AJWValidator.m */,
+			);
+			name = Validator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,8 +490,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2CD76021CCCF81A00428164 /* LaunchScreen.storyboard in Resources */,
+				B2CD76A91CCD075300428164 /* b.png in Resources */,
 				B2CD75FF1CCCF81A00428164 /* Assets.xcassets in Resources */,
 				B2CD75FD1CCCF81A00428164 /* Main.storyboard in Resources */,
+				B2CD76281CCCF85600428164 /* EstimoteSDK in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +518,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2CD75FA1CCCF81A00428164 /* ViewController.m in Sources */,
+				B2CD76921CCCFF1900428164 /* AJWValidatorEqualRule.m in Sources */,
+				B2CD766E1CCCFCDF00428164 /* BeaconParseManager.m in Sources */,
+				B2CD76961CCCFF1900428164 /* AJWValidatorRequiredRule.m in Sources */,
+				B2CD76631CCCFBAF00428164 /* User.m in Sources */,
+				B2CD76901CCCFF1900428164 /* AJWValidator.m in Sources */,
+				B2CD76931CCCFF1900428164 /* AJWValidatorRangeRule.m in Sources */,
+				B2CD76981CCCFF1900428164 /* UIView+AJWValidator.m in Sources */,
+				B2CD766B1CCCFC9400428164 /* NearablesParseManager.m in Sources */,
+				B2CD768E1CCCFF1900428164 /* AJWNumericValidator.m in Sources */,
 				B2CD75F71CCCF81A00428164 /* AppDelegate.m in Sources */,
+				B2CD765D1CCCFB7300428164 /* InsideAttractionViewController.m in Sources */,
+				B2CD76591CCCFAC100428164 /* iCarousel.m in Sources */,
+				B2CD768F1CCCFF1900428164 /* AJWStringValidator.m in Sources */,
 				B2CD75F41CCCF81A00428164 /* main.m in Sources */,
+				B2CD76531CCCFA2600428164 /* LoginViewController.m in Sources */,
+				B2CD76681CCCFC4800428164 /* TouristLocation.m in Sources */,
+				B2CD76951CCCFF1900428164 /* AJWValidatorRemoteRule.m in Sources */,
+				B2CD76A41CCD006C00428164 /* FurtherInfoViewController.m in Sources */,
+				B2CD76941CCCFF1900428164 /* AJWValidatorRegularExpressionRule.m in Sources */,
+				B2CD76711CCCFD4600428164 /* TouristLocationArtefact.m in Sources */,
+				B2CD76911CCCFF1900428164 /* AJWValidatorCustomRule.m in Sources */,
+				B2CD76A11CCCFFBF00428164 /* TouristLocationViewController.m in Sources */,
+				B2CD76741CCCFD7500428164 /* LanguageManager.m in Sources */,
+				B2CD76971CCCFF1900428164 /* AJWValidatorRule.m in Sources */,
+				B2CD769E1CCCFFB500428164 /* SignupViewController.m in Sources */,
+				B2CD76A71CCD008E00428164 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,9 +684,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EstimoteSDK",
+					"$(PROJECT_DIR)/parse-library-1",
+				);
 				INFOPLIST_FILE = bAdventurousTourist/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = toireasa.bAdventurousTourist;
+				PRODUCT_BUNDLE_IDENTIFIER = toireasa.app.bAdventurousTourist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -427,9 +700,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EstimoteSDK",
+					"$(PROJECT_DIR)/parse-library-1",
+				);
 				INFOPLIST_FILE = bAdventurousTourist/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = toireasa.bAdventurousTourist;
+				PRODUCT_BUNDLE_IDENTIFIER = toireasa.app.bAdventurousTourist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -501,6 +779,7 @@
 				B2CD761E1CCCF81A00428164 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2CD761F1CCCF81A00428164 /* Build configuration list for PBXNativeTarget "bAdventurousTouristTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +788,7 @@
 				B2CD76211CCCF81A00428164 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2CD76221CCCF81A00428164 /* Build configuration list for PBXNativeTarget "bAdventurousTouristUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +797,7 @@
 				B2CD76241CCCF81A00428164 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
