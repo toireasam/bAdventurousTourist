@@ -23,12 +23,12 @@
             </objects>
             <point key="canvasLocation" x="-370" y="136"/>
         </scene>
-        <!--Item-->
+        <!--Settings-->
         <scene sceneID="oMw-lh-oOr">
             <objects>
                 <navigationController id="IbB-xD-EbE" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="sCY-Zm-6Hk"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hwg-Iu-VuO">
+                    <tabBarItem key="tabBarItem" title="Settings" image="settings" id="sCY-Zm-6Hk"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="blackTranslucent" id="hwg-Iu-VuO">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -40,12 +40,12 @@
             </objects>
             <point key="canvasLocation" x="58" y="-118"/>
         </scene>
-        <!--Item-->
+        <!--Nearby-->
         <scene sceneID="whV-h8-uUd">
             <objects>
                 <navigationController id="HRb-6J-rUN" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="woJ-Q7-MmA"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="l3Q-wl-5Z2">
+                    <tabBarItem key="tabBarItem" title="Nearby" image="near" id="woJ-Q7-MmA"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="blackTranslucent" id="l3Q-wl-5Z2">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -442,5 +442,6 @@
     <resources>
         <image name="b.png" width="508" height="418"/>
         <image name="near" width="25" height="25"/>
+        <image name="settings" width="25" height="25"/>
     </resources>
 </document>
