@@ -40,8 +40,6 @@ NSString *errorMsg;
                                    action:@selector(dismissKeyboard)];
     
     [self.view addGestureRecognizer:tap];
-    loginBtn.hidden = YES;
-    login.hidden = YES;
     
 }
 
@@ -183,8 +181,6 @@ NSString *errorMsg;
             .textColor = [UIColor whiteColor];
             weakSelf.promptLblGeneral.text = [NSString stringWithFormat:NSLocalizedString(@"Signup sucessful!", nil)];
             weakSelf.promptLblGeneral.hidden = NO;
-            loginBtn.hidden = NO;
-            login.hidden = NO;
             
         }
         else
