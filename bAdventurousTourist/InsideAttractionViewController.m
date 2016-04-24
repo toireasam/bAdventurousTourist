@@ -118,9 +118,7 @@ NSMutableArray *insideTouristAttractionBeacons;
 - (void)nearableManager:(ESTNearableManager *)manager
       didRangeNearables:(NSArray *)nearables
                withType:(ESTNearableType)type
-{
-    ESTNearable *nearestBeacon = nearables.firstObject;
-    
+{    
     self.nearablesArray = nearables;
     
     [self getRelevantNearables];

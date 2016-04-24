@@ -146,7 +146,7 @@
                         <outlet property="promptLblGeneral" destination="Ghs-GV-Sxg" id="CAU-eo-EBe"/>
                         <outlet property="signUpBtn" destination="9yj-5q-Znc" id="pdN-Lv-Zn1"/>
                         <outlet property="usernameTxt" destination="iOH-gm-2Ae" id="fQ0-DW-WbC"/>
-                        <segue destination="I5C-fT-CPn" kind="push" id="WOU-gh-ic4"/>
+                        <segue destination="I5C-fT-CPn" kind="push" identifier="signupScreen" id="WOU-gh-ic4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2aL-bS-syc" userLabel="First Responder" sceneMemberID="firstResponder"/>
