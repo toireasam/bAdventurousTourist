@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B2461A2F1CCE4FA500CB7A92 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2461A311CCE4FA500CB7A92 /* Localizable.strings */; };
 		B2CD75F41CCCF81A00428164 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD75F31CCCF81A00428164 /* main.m */; };
 		B2CD75F71CCCF81A00428164 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD75F61CCCF81A00428164 /* AppDelegate.m */; };
 		B2CD75FD1CCCF81A00428164 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2CD75FB1CCCF81A00428164 /* Main.storyboard */; };
@@ -78,6 +79,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B2461A2D1CCE4F8A00CB7A92 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Main.strings; sourceTree = "<group>"; };
+		B2461A2E1CCE4F8A00CB7A92 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		B2461A301CCE4FA500CB7A92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B2461A321CCE4FB700CB7A92 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B2461A331CCE54A900CB7A92 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		B2461A341CCE54A900CB7A92 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		B2461A351CCE54A900CB7A92 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B2CD75EF1CCCF81A00428164 /* bAdventurousTourist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bAdventurousTourist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2CD75F31CCCF81A00428164 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B2CD75F51CCCF81A00428164 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -209,6 +217,7 @@
 		B2CD75E61CCCF81A00428164 = {
 			isa = PBXGroup;
 			children = (
+				B2461A311CCE4FA500CB7A92 /* Localizable.strings */,
 				B2CD76A81CCD075300428164 /* b.png */,
 				B2CD76991CCCFF2D00428164 /* Validator */,
 				B2CD76561CCCFAB700428164 /* Carousel */,
@@ -471,6 +480,8 @@
 			knownRegions = (
 				en,
 				Base,
+				sv,
+				ja,
 			);
 			mainGroup = B2CD75E61CCCF81A00428164;
 			productRefGroup = B2CD75F01CCCF81A00428164 /* Products */;
@@ -490,6 +501,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2CD76021CCCF81A00428164 /* LaunchScreen.storyboard in Resources */,
+				B2461A2F1CCE4FA500CB7A92 /* Localizable.strings in Resources */,
 				B2CD76A91CCD075300428164 /* b.png in Resources */,
 				B2CD75FF1CCCF81A00428164 /* Assets.xcassets in Resources */,
 				B2CD75FD1CCCF81A00428164 /* Main.storyboard in Resources */,
@@ -579,10 +591,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		B2461A311CCE4FA500CB7A92 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2461A301CCE4FA500CB7A92 /* en */,
+				B2461A321CCE4FB700CB7A92 /* sv */,
+				B2461A351CCE54A900CB7A92 /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		B2CD75FB1CCCF81A00428164 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				B2CD75FC1CCCF81A00428164 /* Base */,
+				B2461A2D1CCE4F8A00CB7A92 /* sv */,
+				B2461A331CCE54A900CB7A92 /* ja */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -591,6 +615,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				B2CD76011CCCF81A00428164 /* Base */,
+				B2461A2E1CCE4F8A00CB7A92 /* sv */,
+				B2461A341CCE54A900CB7A92 /* ja */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";

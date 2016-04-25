@@ -1,0 +1,51 @@
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "6tq-S2-qvm"; */
+"6tq-S2-qvm.placeholder" = "ユーザ名";
+
+/* Class = "UIButton"; normalTitle = "Sign up"; ObjectID = "9yj-5q-Znc"; */
+"9yj-5q-Znc.normalTitle" = "サインアップ";
+
+/* Class = "UILabel"; text = "Museum"; ObjectID = "D0Z-SE-gkj"; */
+"D0Z-SE-gkj.text" = "博物館";
+
+/* Class = "UIButton"; normalTitle = "Forgot password?"; ObjectID = "MJg-3I-E8t"; */
+"MJg-3I-E8t.normalTitle" = "パスワードをお忘れですか?";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "RQO-OX-ncW"; */
+"RQO-OX-ncW.placeholder" = "パスワード";
+
+/* Class = "UITextField"; placeholder = "Email (optional)"; ObjectID = "RzD-zm-hz5"; */
+"RzD-zm-hz5.placeholder" = "メール（オプション）";
+
+/* Class = "UILabel"; text = "City Hall "; ObjectID = "Ww9-ZV-gft"; */
+"Ww9-ZV-gft.text" = "市役所";
+
+/* Class = "UITextField"; placeholder = "Sign Up"; ObjectID = "Xvk-YJ-btQ"; */
+"Xvk-YJ-btQ.placeholder" = "サインアップ";
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "iOH-gm-2Ae"; */
+"iOH-gm-2Ae.placeholder" = "ユーザ名";
+
+/* Class = "UIButton"; normalTitle = "Don't have an account?"; ObjectID = "jca-z4-ds6"; */
+"jca-z4-ds6.normalTitle" = "アカウントを持っていないのですか";
+
+/* Class = "UITextField"; placeholder = "Log In"; ObjectID = "o2m-8b-ZLB"; */
+"o2m-8b-ZLB.placeholder" = "ログイン";
+
+/* Class = "UITextField"; placeholder = "Log In"; ObjectID = "prE-tg-OsK"; */
+"prE-tg-OsK.placeholder" = "ログイン";
+
+/* Class = "UITabBarItem"; title = "Settings"; ObjectID = "sCY-Zm-6Hk"; */
+"sCY-Zm-6Hk.title" = "設定";
+
+/* Class = "UITextField"; placeholder = "Log Out"; ObjectID = "uDd-CO-7R2"; */
+"uDd-CO-7R2.placeholder" = "ログアウト";
+
+/* Class = "UITabBarItem"; title = "Nearby"; ObjectID = "wZN-sm-O3f"; */
+"wZN-sm-O3f.title" = "近所の";
+
+/* Class = "UITabBarItem"; title = "Nearby"; ObjectID = "woJ-Q7-MmA"; */
+"woJ-Q7-MmA.title" = "近所の";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "xAl-GC-tAu"; */
+"xAl-GC-tAu.placeholder" = "パスワード";
