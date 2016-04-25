@@ -1,0 +1,51 @@
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "6tq-S2-qvm"; */
+"6tq-S2-qvm.placeholder" = "Username";
+
+/* Class = "UIButton"; normalTitle = "Sign up"; ObjectID = "9yj-5q-Znc"; */
+"9yj-5q-Znc.normalTitle" = "Sign up";
+
+/* Class = "UILabel"; text = "Museum"; ObjectID = "D0Z-SE-gkj"; */
+"D0Z-SE-gkj.text" = "Museum";
+
+/* Class = "UIButton"; normalTitle = "Forgot password?"; ObjectID = "MJg-3I-E8t"; */
+"MJg-3I-E8t.normalTitle" = "Forgot password?";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "RQO-OX-ncW"; */
+"RQO-OX-ncW.placeholder" = "Password";
+
+/* Class = "UITextField"; placeholder = "Email (optional)"; ObjectID = "RzD-zm-hz5"; */
+"RzD-zm-hz5.placeholder" = "Email (optional)";
+
+/* Class = "UILabel"; text = "City Hall "; ObjectID = "Ww9-ZV-gft"; */
+"Ww9-ZV-gft.text" = "City Hall ";
+
+/* Class = "UITextField"; placeholder = "Sign Up"; ObjectID = "Xvk-YJ-btQ"; */
+"Xvk-YJ-btQ.placeholder" = "Sign Up";
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "iOH-gm-2Ae"; */
+"iOH-gm-2Ae.placeholder" = "Username";
+
+/* Class = "UIButton"; normalTitle = "Don't have an account?"; ObjectID = "jca-z4-ds6"; */
+"jca-z4-ds6.normalTitle" = "Don't have an account?";
+
+/* Class = "UITextField"; placeholder = "Log In"; ObjectID = "o2m-8b-ZLB"; */
+"o2m-8b-ZLB.placeholder" = "Log In";
+
+/* Class = "UITextField"; placeholder = "Log In"; ObjectID = "prE-tg-OsK"; */
+"prE-tg-OsK.placeholder" = "Log In";
+
+/* Class = "UITabBarItem"; title = "Settings"; ObjectID = "sCY-Zm-6Hk"; */
+"sCY-Zm-6Hk.title" = "Settings";
+
+/* Class = "UITextField"; placeholder = "Log Out"; ObjectID = "uDd-CO-7R2"; */
+"uDd-CO-7R2.placeholder" = "Log Out";
+
+/* Class = "UITabBarItem"; title = "Nearby"; ObjectID = "wZN-sm-O3f"; */
+"wZN-sm-O3f.title" = "Nearby";
+
+/* Class = "UITabBarItem"; title = "Nearby"; ObjectID = "woJ-Q7-MmA"; */
+"woJ-Q7-MmA.title" = "Nearby";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "xAl-GC-tAu"; */
+"xAl-GC-tAu.placeholder" = "Password";
