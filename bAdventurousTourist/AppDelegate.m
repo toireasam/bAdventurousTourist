@@ -44,7 +44,12 @@
     
     // Present login screen if user has not yet logged in
     NSUserDefaults *standardDefaults = [NSUserDefaults standardUserDefaults];
-    if ([[standardDefaults stringForKey:@"loggedin"] isEqual: @"out"])
+    if([[NSUserDefaults standardUserDefaults] objectForKey:@"loggedin"] == nil) {
+        
+        [self showLoginScreen:YES];
+        
+    }
+    else if([[standardDefaults stringForKey:@"loggedin"] isEqual: @"out"])
     {
         [self showLoginScreen:YES];
     }
