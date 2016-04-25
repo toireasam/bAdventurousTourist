@@ -34,7 +34,7 @@
     }
     else if([identifier  isEqual: @"5583e7200f965302"])
     {
-        return @"Welcome info - city hall";
+        return @"Welcome Information!";
     }
     else
     {

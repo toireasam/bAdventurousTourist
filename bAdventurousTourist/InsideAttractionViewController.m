@@ -134,40 +134,68 @@ NSMutableArray *insideTouristAttractionBeacons;
     return [insideTouristAttractionBeacons count];
 }
 
-- (UIImage *)imageForNearableType:(ESTNearableType)type
+//- (UIImage *)imageForNearableType:(ESTNearableType)type
+//{
+//    switch (type)
+//    {
+//        case ESTNearableTypeBag:
+//            return [UIImage imageNamed:@"museum"];
+//            break;
+//        case ESTNearableTypeBike:
+//            return [UIImage imageNamed:@"museum"];
+//            break;
+//        case ESTNearableTypeCar:
+//            return [UIImage imageNamed:@"museum"];
+//            break;
+//        case ESTNearableTypeFridge:
+//            return [UIImage imageNamed:@"museum"];
+//            break;
+//        case ESTNearableTypeBed:
+//            return [UIImage imageNamed:@"museum"];
+//            break;
+//        case ESTNearableTypeChair:
+//            return [UIImage imageNamed:@"museum"];
+//            break;
+//        case ESTNearableTypeShoe:
+//            return [UIImage imageNamed:@"museum"];
+//            break;
+//        case ESTNearableTypeDoor:
+//            return [UIImage imageNamed:@"museum"];
+//            break;
+//        case ESTNearableTypeDog:
+//            return [UIImage imageNamed:@"museum"];
+//            break;
+//        default:
+//            return [UIImage imageNamed:@"museum"];
+//            break;
+//    }
+//}
+
+- (UIImage *)artefactImage:(NSString *)identifier
 {
-    switch (type)
+    if([identifier  isEqual: @"6e3972e4eacf21c7"])
     {
-        case ESTNearableTypeBag:
-            return [UIImage imageNamed:@"museum"];
-            break;
-        case ESTNearableTypeBike:
-            return [UIImage imageNamed:@"museum"];
-            break;
-        case ESTNearableTypeCar:
-            return [UIImage imageNamed:@"museum"];
-            break;
-        case ESTNearableTypeFridge:
-            return [UIImage imageNamed:@"museum"];
-            break;
-        case ESTNearableTypeBed:
-            return [UIImage imageNamed:@"museum"];
-            break;
-        case ESTNearableTypeChair:
-            return [UIImage imageNamed:@"museum"];
-            break;
-        case ESTNearableTypeShoe:
-            return [UIImage imageNamed:@"museum"];
-            break;
-        case ESTNearableTypeDoor:
-            return [UIImage imageNamed:@"museum"];
-            break;
-        case ESTNearableTypeDog:
-            return [UIImage imageNamed:@"museum"];
-            break;
-        default:
-            return [UIImage imageNamed:@"museum"];
-            break;
+        return [UIImage imageNamed:@"museum"];
+    }
+    else if([identifier  isEqual: @"71fe18a348f33406"])
+    {
+        return [UIImage imageNamed:@"museum"];
+    }
+    else if([identifier  isEqual: @"5d80738722997275"])
+    {
+        return [UIImage imageNamed:@"museum"];
+    }
+    else if([identifier  isEqual: @"c2aab0fa802b664b"])
+    {
+        return [UIImage imageNamed:@"museum"];
+    }
+    else if([identifier  isEqual: @"5583e7200f965302"])
+    {
+        return [UIImage imageNamed:@"citycouncil"];
+    }
+    else
+    {
+        return @"unknown";
     }
 }
 
@@ -183,9 +211,9 @@ NSMutableArray *insideTouristAttractionBeacons;
     cell.imageView.image = [[UIImage alloc] init];
     cell.imageView.contentMode = UIViewContentModeScaleAspectFill;
     
-    UIImageView *imageView = [[UIImageView alloc]initWithFrame:CGRectMake(self.view.frame.size.width - 60, 30, 30, 30)];
+    UIImageView *imageView = [[UIImageView alloc]initWithFrame:CGRectMake(self.view.frame.size.width - 100, 25, 30, 30)];
     imageView.contentMode = UIViewContentModeScaleAspectFill;
-    [imageView setImage:[self imageForNearableType:nearable.type]];
+    [imageView setImage:[self artefactImage:nearable.identifier]];
     [cell.contentView addSubview:imageView];
     
     if (indexPath.row == 0) // Top row
@@ -198,6 +226,7 @@ NSMutableArray *insideTouristAttractionBeacons;
         cell.textLabel.textColor = [UIColor darkGrayColor];
     }
     cell.textLabel.font = [UIFont systemFontOfSize:18.0];
+    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     
     return cell;
 }
