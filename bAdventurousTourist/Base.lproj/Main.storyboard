@@ -93,7 +93,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="b.png" translatesAutoresizingMaskIntoConstraints="NO" id="jUM-nV-244">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bAdventurous.png" translatesAutoresizingMaskIntoConstraints="NO" id="jUM-nV-244">
                                 <rect key="frame" x="108" y="78" width="158" height="115"/>
                             </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iOH-gm-2Ae">
@@ -440,7 +440,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="b.png" width="508" height="418"/>
+        <image name="bAdventurous.png" width="508" height="418"/>
         <image name="near" width="25" height="25"/>
         <image name="settings" width="25" height="25"/>
     </resources>

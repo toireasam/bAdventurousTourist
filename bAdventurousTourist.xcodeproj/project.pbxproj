@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		B2461A2F1CCE4FA500CB7A92 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2461A311CCE4FA500CB7A92 /* Localizable.strings */; };
+		B260F4351CCF8E7200678E86 /* bAdventurous.png in Resources */ = {isa = PBXBuildFile; fileRef = B260F4341CCF8E7200678E86 /* bAdventurous.png */; };
 		B2CD75F41CCCF81A00428164 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD75F31CCCF81A00428164 /* main.m */; };
 		B2CD75F71CCCF81A00428164 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD75F61CCCF81A00428164 /* AppDelegate.m */; };
 		B2CD75FD1CCCF81A00428164 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2CD75FB1CCCF81A00428164 /* Main.storyboard */; };
 		B2CD75FF1CCCF81A00428164 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2CD75FE1CCCF81A00428164 /* Assets.xcassets */; };
-		B2CD76021CCCF81A00428164 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2CD76001CCCF81A00428164 /* LaunchScreen.storyboard */; };
 		B2CD760D1CCCF81A00428164 /* bAdventurousTouristTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD760C1CCCF81A00428164 /* bAdventurousTouristTests.m */; };
 		B2CD76181CCCF81A00428164 /* bAdventurousTouristUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD76171CCCF81A00428164 /* bAdventurousTouristUITests.m */; };
 		B2CD76281CCCF85600428164 /* EstimoteSDK in Resources */ = {isa = PBXBuildFile; fileRef = B2CD76271CCCF85600428164 /* EstimoteSDK */; };
@@ -58,7 +58,6 @@
 		B2CD76A11CCCFFBF00428164 /* TouristLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD76A01CCCFFBF00428164 /* TouristLocationViewController.m */; };
 		B2CD76A41CCD006C00428164 /* FurtherInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD76A31CCD006C00428164 /* FurtherInfoViewController.m */; };
 		B2CD76A71CCD008E00428164 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD76A61CCD008E00428164 /* SettingsViewController.m */; };
-		B2CD76A91CCD075300428164 /* b.png in Resources */ = {isa = PBXBuildFile; fileRef = B2CD76A81CCD075300428164 /* b.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,20 +79,18 @@
 
 /* Begin PBXFileReference section */
 		B2461A2D1CCE4F8A00CB7A92 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Main.strings; sourceTree = "<group>"; };
-		B2461A2E1CCE4F8A00CB7A92 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		B2461A301CCE4FA500CB7A92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B2461A321CCE4FB700CB7A92 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B2461A331CCE54A900CB7A92 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
-		B2461A341CCE54A900CB7A92 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		B2461A351CCE54A900CB7A92 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B2461A381CCE7A5900CB7A92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		B260F4341CCF8E7200678E86 /* bAdventurous.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bAdventurous.png; path = ../NearablesTouristLocationApplicationOwner/bAdventurous.png; sourceTree = "<group>"; };
 		B2CD75EF1CCCF81A00428164 /* bAdventurousTourist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bAdventurousTourist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2CD75F31CCCF81A00428164 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B2CD75F51CCCF81A00428164 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B2CD75F61CCCF81A00428164 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B2CD75FC1CCCF81A00428164 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B2CD75FE1CCCF81A00428164 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B2CD76011CCCF81A00428164 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2CD76031CCCF81A00428164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2CD76081CCCF81A00428164 /* bAdventurousTouristTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bAdventurousTouristTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2CD760C1CCCF81A00428164 /* bAdventurousTouristTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bAdventurousTouristTests.m; sourceTree = "<group>"; };
@@ -169,7 +166,6 @@
 		B2CD76A31CCD006C00428164 /* FurtherInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FurtherInfoViewController.m; sourceTree = "<group>"; };
 		B2CD76A51CCD008E00428164 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsViewController.h; path = ../SettingsViewController.h; sourceTree = "<group>"; };
 		B2CD76A61CCD008E00428164 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsViewController.m; path = ../SettingsViewController.m; sourceTree = "<group>"; };
-		B2CD76A81CCD075300428164 /* b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,7 +215,7 @@
 			isa = PBXGroup;
 			children = (
 				B2461A311CCE4FA500CB7A92 /* Localizable.strings */,
-				B2CD76A81CCD075300428164 /* b.png */,
+				B260F4341CCF8E7200678E86 /* bAdventurous.png */,
 				B2CD76991CCCFF2D00428164 /* Validator */,
 				B2CD76561CCCFAB700428164 /* Carousel */,
 				B2CD76551CCCFA4A00428164 /* Estimote */,
@@ -250,7 +246,6 @@
 				B2CD75F61CCCF81A00428164 /* AppDelegate.m */,
 				B2CD75FB1CCCF81A00428164 /* Main.storyboard */,
 				B2CD75FE1CCCF81A00428164 /* Assets.xcassets */,
-				B2CD76001CCCF81A00428164 /* LaunchScreen.storyboard */,
 				B2CD76031CCCF81A00428164 /* Info.plist */,
 				B2CD75F21CCCF81A00428164 /* Supporting Files */,
 			);
@@ -460,7 +455,7 @@
 				TargetAttributes = {
 					B2CD75EE1CCCF81A00428164 = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = 67P8J643R9;
+						DevelopmentTeam = YCUA45Y5MH;
 					};
 					B2CD76071CCCF81A00428164 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -501,9 +496,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2CD76021CCCF81A00428164 /* LaunchScreen.storyboard in Resources */,
 				B2461A2F1CCE4FA500CB7A92 /* Localizable.strings in Resources */,
-				B2CD76A91CCD075300428164 /* b.png in Resources */,
+				B260F4351CCF8E7200678E86 /* bAdventurous.png in Resources */,
 				B2CD75FF1CCCF81A00428164 /* Assets.xcassets in Resources */,
 				B2CD75FD1CCCF81A00428164 /* Main.storyboard in Resources */,
 				B2CD76281CCCF85600428164 /* EstimoteSDK in Resources */,
@@ -613,16 +607,6 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		B2CD76001CCCF81A00428164 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B2CD76011CCCF81A00428164 /* Base */,
-				B2461A2E1CCE4F8A00CB7A92 /* sv */,
-				B2461A341CCE54A900CB7A92 /* ja */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -643,7 +627,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Toireasa Moley (YCUA45Y5MH)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -687,7 +671,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Toireasa Moley (YCUA45Y5MH)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -712,6 +696,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/EstimoteSDK",
@@ -719,8 +705,9 @@
 				);
 				INFOPLIST_FILE = bAdventurousTourist/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = toireasa.app.bAdventurousTourist;
+				PRODUCT_BUNDLE_IDENTIFIER = toireasamoley.app.bAdventurousTourist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -728,6 +715,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/EstimoteSDK",
@@ -735,8 +724,9 @@
 				);
 				INFOPLIST_FILE = bAdventurousTourist/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = toireasa.app.bAdventurousTourist;
+				PRODUCT_BUNDLE_IDENTIFIER = toireasamoley.app.bAdventurousTourist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
