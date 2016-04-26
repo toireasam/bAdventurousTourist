@@ -314,16 +314,16 @@
 		B2CD76641CCCFBB400428164 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				B2CD769F1CCCFFBF00428164 /* TouristLocationViewController.h */,
-				B2CD76A01CCCFFBF00428164 /* TouristLocationViewController.m */,
 				B2CD769C1CCCFFB500428164 /* SignupViewController.h */,
 				B2CD769D1CCCFFB500428164 /* SignupViewController.m */,
 				B2CD76511CCCFA2600428164 /* LoginViewController.h */,
 				B2CD76521CCCFA2600428164 /* LoginViewController.m */,
+				B2CD769F1CCCFFBF00428164 /* TouristLocationViewController.h */,
+				B2CD76A01CCCFFBF00428164 /* TouristLocationViewController.m */,
 				B2CD765B1CCCFB7300428164 /* InsideAttractionViewController.h */,
+				B2CD765C1CCCFB7300428164 /* InsideAttractionViewController.m */,
 				B2CD76A21CCD006C00428164 /* FurtherInfoViewController.h */,
 				B2CD76A31CCD006C00428164 /* FurtherInfoViewController.m */,
-				B2CD765C1CCCFB7300428164 /* InsideAttractionViewController.m */,
 				B2CD76A51CCD008E00428164 /* SettingsViewController.h */,
 				B2CD76A61CCD008E00428164 /* SettingsViewController.m */,
 			);

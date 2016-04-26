@@ -99,7 +99,7 @@ User *currentUser;
      }];
 }
 
-- (IBAction)forgotPasswordBtnClick:(id)sender {
+- (IBAction)forgotPassword:(id)sender {
     UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"Email Address", nil)
                                                         message:NSLocalizedString(@"Enter the email for your account:", nil)
                                                        delegate:self
