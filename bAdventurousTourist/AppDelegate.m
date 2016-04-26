@@ -15,8 +15,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    [PFImageView class];
-    
     [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
     
     // Key to interact with Parse API

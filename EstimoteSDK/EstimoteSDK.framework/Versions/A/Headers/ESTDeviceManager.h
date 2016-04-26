@@ -10,7 +10,7 @@
 //  Copyright (c) 2015 Estimote. All rights reserved.
 
 #import <Foundation/Foundation.h>
-#import "ESTDeviceLocationBeacon.h"
+#import "ESTBluetoothBeacon.h"
 #import "ESTDeviceNearable.h"
 #import "ESTTelemetryNotificationProtocol.h"
 

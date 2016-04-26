@@ -34,7 +34,7 @@ typedef NS_ENUM(NSInteger, ESTUtilityManagerState)
  * @param beacons An array of `<ESTBluetoothBeacon>` objects representing the beacons discovered.
  */
 - (void)utilityManager:(ESTUtilityManager *)manager
-    didDiscoverBeacons:(NSArray<ESTBluetoothBeacon *> *)beacons;
+    didDiscoverBeacons:(NSArray<ESTDevice *> *)beacons;
 
 /**
  * Tells the delegate that one or more beacons were discovered in the vicinity of the device.
