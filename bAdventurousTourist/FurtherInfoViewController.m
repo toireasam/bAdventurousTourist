@@ -87,8 +87,8 @@ TouristLocationArtefact *locationArtefact;
                 NSLog(@"%@", object.objectId);
                 NSLog(@"%@",object);
                 artefactNameLbl.text = object[@"InsideTouristLocationArtefact"];
-                artefactInfoLbl.text = object[@"Information"];
-                artefactInfoLbl.textColor = [UIColor darkGrayColor];
+                _pinchText.text = object[@"Information"];
+                _pinchText.textColor = [UIColor darkGrayColor];
             }
         }
         else
