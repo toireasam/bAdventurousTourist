@@ -7,8 +7,17 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "SignupViewController.h"
 
 @interface bAdventurousTouristTests : XCTestCase
+
+@property (nonatomic) SignupViewController *vcToTest;
+
+@end
+
+@interface SignupViewController (Test)
+
+-(BOOL)validateEmail:(NSString *)email;
 
 @end
 
@@ -17,6 +26,7 @@
 - (void)setUp {
     [super setUp];
     // Put setup code here. This method is called before the invocation of each test method in the class.
+    self.vcToTest = [[SignupViewController alloc] init];
 }
 
 - (void)tearDown {
@@ -24,9 +34,17 @@
     [super tearDown];
 }
 
-- (void)testExample {
-    // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
+- (void)testValidateEmail {
+
+    // Arrange
+    NSString *validEmail = @"toireasa-moley@hotmail.co.uk";
+    BOOL isValid = true;
+    
+    // Act
+    BOOL result = [self.vcToTest validateEmail:validEmail];
+    
+    // Assert
+    XCTAssertEqual(result, isValid, @"Expected true, got false");
 }
 
 - (void)testPerformanceExample {

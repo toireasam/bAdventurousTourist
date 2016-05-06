@@ -14,9 +14,9 @@
 @synthesize logoutBtn;
 @synthesize logout;
 
-- (IBAction)logoutClick:(id)sender {
+- (IBAction)logout:(id)sender {
     
-    [self setUserDefaults];
+    [self setLogoutDefaults];
     
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     LoginViewController *viewController = (LoginViewController *)[storyboard instantiateViewControllerWithIdentifier:@"loginScreen"];
@@ -25,7 +25,7 @@
     
 }
 
--(void)setUserDefaults
+-(void)setLogoutDefaults
 {
     NSUserDefaults *standardDefaults = [NSUserDefaults standardUserDefaults];
     [standardDefaults setObject:@"out" forKey:@"loggedin"];
@@ -34,12 +34,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self getUserCategoryDefaults];
+    [self setSwitchCategoryPreferences];
     
     logout.userInteractionEnabled = NO;
 }
 
--(void)getUserCategoryDefaults
+-(void)setSwitchCategoryPreferences
 {
     NSUserDefaults *standardDefaults = [NSUserDefaults standardUserDefaults];
     

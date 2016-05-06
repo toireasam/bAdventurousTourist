@@ -3,9 +3,9 @@
 #import <Foundation/Foundation.h>
 #import <EstimoteSDK/EstimoteSDK.h>
 
-@interface BeaconParseManager : NSObject <ESTBeaconManagerDelegate>
+@interface BeaconParseController : NSObject <ESTBeaconManagerDelegate>
 
-- (NSString *)identifyBeacon:(NSString *)minor;
+- (NSString *)getBeaconTouristLocation:(NSString *)minor;
 - (NSString *)getBeaconCategory:(NSString *)minor;
 
 @end

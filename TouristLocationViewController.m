@@ -2,7 +2,7 @@
 
 #import "TouristLocationViewController.h"
 #import <EstimoteSDK/EstimoteSDK.h>
-#import "BeaconParseManager.h"
+#import "BeaconParseController.h"
 #import "TouristLocation.h"
 
 @interface TouristLocationViewController () <ESTBeaconManagerDelegate>
@@ -16,13 +16,13 @@
 
 NSMutableArray *tableData;
 NSString *touristLocationOutsideSelected;
-BeaconParseManager *beaconParseManager;
+BeaconParseController *beaconParseManager;
 TouristLocation *touristLocation;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     tableData = [[NSMutableArray alloc]init];
-    beaconParseManager = [[BeaconParseManager alloc]init];
+    beaconParseManager = [[BeaconParseController alloc]init];
     
     self.beaconManager = [ESTBeaconManager new];
     self.beaconManager.delegate = self;
@@ -47,7 +47,7 @@ TouristLocation *touristLocation;
 - (void)displayBeaconsForCategories:(CLBeacon *)nearestBeacon{
     
     NSString *beaconMinor = [NSString stringWithFormat:@"%@",nearestBeacon.minor];
-    NSString *beaconName = [beaconParseManager identifyBeacon:beaconMinor];
+    NSString *beaconName = [beaconParseManager getBeaconTouristLocation:beaconMinor];
     NSString *beaconCategory = [beaconParseManager getBeaconCategory:beaconMinor];
     
     NSUserDefaults *standardDefaults = [NSUserDefaults standardUserDefaults];

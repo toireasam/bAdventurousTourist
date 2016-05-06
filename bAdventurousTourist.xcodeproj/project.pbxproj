@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		B2461A2F1CCE4FA500CB7A92 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2461A311CCE4FA500CB7A92 /* Localizable.strings */; };
-		B260F4351CCF8E7200678E86 /* bAdventurous.png in Resources */ = {isa = PBXBuildFile; fileRef = B260F4341CCF8E7200678E86 /* bAdventurous.png */; };
 		B2721EEC1CCFB59800BEEFA3 /* EstimoteSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2721EEB1CCFB59800BEEFA3 /* EstimoteSDK.framework */; };
+		B2758F341CD4F67F0077C9BC /* bAdventurous.png in Resources */ = {isa = PBXBuildFile; fileRef = B2758F331CD4F67F0077C9BC /* bAdventurous.png */; };
+		B2B4FA5C1CDBDDDD0092AD0B /* LanguageManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B4FA5A1CDBDDDD0092AD0B /* LanguageManagerTests.m */; };
 		B2CD75F41CCCF81A00428164 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD75F31CCCF81A00428164 /* main.m */; };
 		B2CD75F71CCCF81A00428164 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD75F61CCCF81A00428164 /* AppDelegate.m */; };
 		B2CD75FD1CCCF81A00428164 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2CD75FB1CCCF81A00428164 /* Main.storyboard */; };
@@ -38,10 +39,10 @@
 		B2CD765D1CCCFB7300428164 /* InsideAttractionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD765C1CCCFB7300428164 /* InsideAttractionViewController.m */; };
 		B2CD76631CCCFBAF00428164 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD76621CCCFBAF00428164 /* User.m */; };
 		B2CD76681CCCFC4800428164 /* TouristLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD76671CCCFC4800428164 /* TouristLocation.m */; };
-		B2CD766B1CCCFC9400428164 /* NearablesParseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD766A1CCCFC9400428164 /* NearablesParseManager.m */; };
-		B2CD766E1CCCFCDF00428164 /* BeaconParseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD766D1CCCFCDF00428164 /* BeaconParseManager.m */; };
+		B2CD766B1CCCFC9400428164 /* NearablesParseController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD766A1CCCFC9400428164 /* NearablesParseController.m */; };
+		B2CD766E1CCCFCDF00428164 /* BeaconParseController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD766D1CCCFCDF00428164 /* BeaconParseController.m */; };
 		B2CD76711CCCFD4600428164 /* TouristLocationArtefact.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD76701CCCFD4600428164 /* TouristLocationArtefact.m */; };
-		B2CD76741CCCFD7500428164 /* LanguageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD76731CCCFD7500428164 /* LanguageManager.m */; };
+		B2CD76741CCCFD7500428164 /* LanguageController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD76731CCCFD7500428164 /* LanguageController.m */; };
 		B2CD768E1CCCFF1900428164 /* AJWNumericValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD76781CCCFF1900428164 /* AJWNumericValidator.m */; };
 		B2CD768F1CCCFF1900428164 /* AJWStringValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD767A1CCCFF1900428164 /* AJWStringValidator.m */; };
 		B2CD76901CCCFF1900428164 /* AJWValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD767C1CCCFF1900428164 /* AJWValidator.m */; };
@@ -83,9 +84,10 @@
 		B2461A331CCE54A900CB7A92 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
 		B2461A351CCE54A900CB7A92 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B2461A381CCE7A5900CB7A92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
-		B260F4341CCF8E7200678E86 /* bAdventurous.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bAdventurous.png; path = ../NearablesTouristLocationApplicationOwner/bAdventurous.png; sourceTree = "<group>"; };
 		B2721EE91CCFB56F00BEEFA3 /* EstimoteSDK */ = {isa = PBXFileReference; lastKnownFileType = folder; path = EstimoteSDK; sourceTree = "<group>"; };
 		B2721EEB1CCFB59800BEEFA3 /* EstimoteSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EstimoteSDK.framework; path = EstimoteSDK/EstimoteSDK.framework; sourceTree = "<group>"; };
+		B2758F331CD4F67F0077C9BC /* bAdventurous.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bAdventurous.png; path = ../../NearablesTouristLocationApplicationOwner/bAdventurous.png; sourceTree = "<group>"; };
+		B2B4FA5A1CDBDDDD0092AD0B /* LanguageManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LanguageManagerTests.m; path = "../../Testing for fyp/LanguageManagerTests.m"; sourceTree = "<group>"; };
 		B2CD75EF1CCCF81A00428164 /* bAdventurousTourist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bAdventurousTourist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2CD75F31CCCF81A00428164 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B2CD75F51CCCF81A00428164 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -126,14 +128,14 @@
 		B2CD76621CCCFBAF00428164 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = ../User.m; sourceTree = "<group>"; };
 		B2CD76661CCCFC4800428164 /* TouristLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouristLocation.h; sourceTree = "<group>"; };
 		B2CD76671CCCFC4800428164 /* TouristLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouristLocation.m; sourceTree = "<group>"; };
-		B2CD76691CCCFC9400428164 /* NearablesParseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearablesParseManager.h; sourceTree = "<group>"; };
-		B2CD766A1CCCFC9400428164 /* NearablesParseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearablesParseManager.m; sourceTree = "<group>"; };
-		B2CD766C1CCCFCDF00428164 /* BeaconParseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeaconParseManager.h; sourceTree = "<group>"; };
-		B2CD766D1CCCFCDF00428164 /* BeaconParseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconParseManager.m; sourceTree = "<group>"; };
+		B2CD76691CCCFC9400428164 /* NearablesParseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearablesParseController.h; sourceTree = "<group>"; };
+		B2CD766A1CCCFC9400428164 /* NearablesParseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearablesParseController.m; sourceTree = "<group>"; };
+		B2CD766C1CCCFCDF00428164 /* BeaconParseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeaconParseController.h; sourceTree = "<group>"; };
+		B2CD766D1CCCFCDF00428164 /* BeaconParseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconParseController.m; sourceTree = "<group>"; };
 		B2CD766F1CCCFD4600428164 /* TouristLocationArtefact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouristLocationArtefact.h; sourceTree = "<group>"; };
 		B2CD76701CCCFD4600428164 /* TouristLocationArtefact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouristLocationArtefact.m; sourceTree = "<group>"; };
-		B2CD76721CCCFD7500428164 /* LanguageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LanguageManager.h; sourceTree = "<group>"; };
-		B2CD76731CCCFD7500428164 /* LanguageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LanguageManager.m; sourceTree = "<group>"; };
+		B2CD76721CCCFD7500428164 /* LanguageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LanguageController.h; sourceTree = "<group>"; };
+		B2CD76731CCCFD7500428164 /* LanguageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LanguageController.m; sourceTree = "<group>"; };
 		B2CD76771CCCFF1900428164 /* AJWNumericValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AJWNumericValidator.h; path = AJWValidator/AJWNumericValidator.h; sourceTree = "<group>"; };
 		B2CD76781CCCFF1900428164 /* AJWNumericValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AJWNumericValidator.m; path = AJWValidator/AJWNumericValidator.m; sourceTree = "<group>"; };
 		B2CD76791CCCFF1900428164 /* AJWStringValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AJWStringValidator.h; path = AJWValidator/AJWStringValidator.h; sourceTree = "<group>"; };
@@ -216,7 +218,6 @@
 				B2721EEB1CCFB59800BEEFA3 /* EstimoteSDK.framework */,
 				B2721EE91CCFB56F00BEEFA3 /* EstimoteSDK */,
 				B2461A311CCE4FA500CB7A92 /* Localizable.strings */,
-				B260F4341CCF8E7200678E86 /* bAdventurous.png */,
 				B2CD76991CCCFF2D00428164 /* Validator */,
 				B2CD76561CCCFAB700428164 /* Carousel */,
 				B2CD76541CCCFA3D00428164 /* Parse */,
@@ -245,6 +246,7 @@
 				B2CD75F51CCCF81A00428164 /* AppDelegate.h */,
 				B2CD75F61CCCF81A00428164 /* AppDelegate.m */,
 				B2CD75FB1CCCF81A00428164 /* Main.storyboard */,
+				B2758F331CD4F67F0077C9BC /* bAdventurous.png */,
 				B2CD75FE1CCCF81A00428164 /* Assets.xcassets */,
 				B2CD76031CCCF81A00428164 /* Info.plist */,
 				B2CD75F21CCCF81A00428164 /* Supporting Files */,
@@ -263,6 +265,7 @@
 		B2CD760B1CCCF81A00428164 /* bAdventurousTouristTests */ = {
 			isa = PBXGroup;
 			children = (
+				B2B4FA5A1CDBDDDD0092AD0B /* LanguageManagerTests.m */,
 				B2CD760C1CCCF81A00428164 /* bAdventurousTouristTests.m */,
 				B2CD760E1CCCF81A00428164 /* Info.plist */,
 			);
@@ -316,6 +319,12 @@
 			children = (
 				B2CD769C1CCCFFB500428164 /* SignupViewController.h */,
 				B2CD769D1CCCFFB500428164 /* SignupViewController.m */,
+				B2CD76721CCCFD7500428164 /* LanguageController.h */,
+				B2CD76731CCCFD7500428164 /* LanguageController.m */,
+				B2CD766C1CCCFCDF00428164 /* BeaconParseController.h */,
+				B2CD766D1CCCFCDF00428164 /* BeaconParseController.m */,
+				B2CD76691CCCFC9400428164 /* NearablesParseController.h */,
+				B2CD766A1CCCFC9400428164 /* NearablesParseController.m */,
 				B2CD76511CCCFA2600428164 /* LoginViewController.h */,
 				B2CD76521CCCFA2600428164 /* LoginViewController.m */,
 				B2CD769F1CCCFFBF00428164 /* TouristLocationViewController.h */,
@@ -334,17 +343,11 @@
 			isa = PBXGroup;
 			children = (
 				B2CD76611CCCFBAF00428164 /* User.h */,
+				B2CD76621CCCFBAF00428164 /* User.m */,
 				B2CD76661CCCFC4800428164 /* TouristLocation.h */,
-				B2CD76691CCCFC9400428164 /* NearablesParseManager.h */,
-				B2CD766A1CCCFC9400428164 /* NearablesParseManager.m */,
-				B2CD766C1CCCFCDF00428164 /* BeaconParseManager.h */,
-				B2CD766D1CCCFCDF00428164 /* BeaconParseManager.m */,
+				B2CD76671CCCFC4800428164 /* TouristLocation.m */,
 				B2CD766F1CCCFD4600428164 /* TouristLocationArtefact.h */,
 				B2CD76701CCCFD4600428164 /* TouristLocationArtefact.m */,
-				B2CD76721CCCFD7500428164 /* LanguageManager.h */,
-				B2CD76731CCCFD7500428164 /* LanguageManager.m */,
-				B2CD76671CCCFC4800428164 /* TouristLocation.m */,
-				B2CD76621CCCFBAF00428164 /* User.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -488,7 +491,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2461A2F1CCE4FA500CB7A92 /* Localizable.strings in Resources */,
-				B260F4351CCF8E7200678E86 /* bAdventurous.png in Resources */,
+				B2758F341CD4F67F0077C9BC /* bAdventurous.png in Resources */,
 				B2CD75FF1CCCF81A00428164 /* Assets.xcassets in Resources */,
 				B2CD75FD1CCCF81A00428164 /* Main.storyboard in Resources */,
 			);
@@ -516,13 +519,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2CD76921CCCFF1900428164 /* AJWValidatorEqualRule.m in Sources */,
-				B2CD766E1CCCFCDF00428164 /* BeaconParseManager.m in Sources */,
+				B2CD766E1CCCFCDF00428164 /* BeaconParseController.m in Sources */,
 				B2CD76961CCCFF1900428164 /* AJWValidatorRequiredRule.m in Sources */,
 				B2CD76631CCCFBAF00428164 /* User.m in Sources */,
 				B2CD76901CCCFF1900428164 /* AJWValidator.m in Sources */,
 				B2CD76931CCCFF1900428164 /* AJWValidatorRangeRule.m in Sources */,
 				B2CD76981CCCFF1900428164 /* UIView+AJWValidator.m in Sources */,
-				B2CD766B1CCCFC9400428164 /* NearablesParseManager.m in Sources */,
+				B2CD766B1CCCFC9400428164 /* NearablesParseController.m in Sources */,
 				B2CD768E1CCCFF1900428164 /* AJWNumericValidator.m in Sources */,
 				B2CD75F71CCCF81A00428164 /* AppDelegate.m in Sources */,
 				B2CD765D1CCCFB7300428164 /* InsideAttractionViewController.m in Sources */,
@@ -537,7 +540,7 @@
 				B2CD76711CCCFD4600428164 /* TouristLocationArtefact.m in Sources */,
 				B2CD76911CCCFF1900428164 /* AJWValidatorCustomRule.m in Sources */,
 				B2CD76A11CCCFFBF00428164 /* TouristLocationViewController.m in Sources */,
-				B2CD76741CCCFD7500428164 /* LanguageManager.m in Sources */,
+				B2CD76741CCCFD7500428164 /* LanguageController.m in Sources */,
 				B2CD76971CCCFF1900428164 /* AJWValidatorRule.m in Sources */,
 				B2CD769E1CCCFFB500428164 /* SignupViewController.m in Sources */,
 				B2CD76A71CCD008E00428164 /* SettingsViewController.m in Sources */,
@@ -549,6 +552,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2CD760D1CCCF81A00428164 /* bAdventurousTouristTests.m in Sources */,
+				B2B4FA5C1CDBDDDD0092AD0B /* LanguageManagerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

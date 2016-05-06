@@ -93,7 +93,7 @@ NSString *errorMsg;
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)signUpBtnClick:(id)sender {
+- (IBAction)signUp:(id)sender {
     
     BOOL validCredentials = [self validateCredentials];
     

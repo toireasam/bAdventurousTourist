@@ -40,17 +40,20 @@
     
     [[UITabBar appearance] setTintColor:[UIColor darkGrayColor]];
     
-    // Present login screen if user has not yet logged in
-    NSUserDefaults *standardDefaults = [NSUserDefaults standardUserDefaults];
-    if([[NSUserDefaults standardUserDefaults] objectForKey:@"loggedin"] == nil) {
-        
-        [self showLoginScreen:YES];
-        
-    }
-    else if([[standardDefaults stringForKey:@"loggedin"] isEqual: @"out"])
+    NSString *currentLanguage = [[NSLocale preferredLanguages] objectAtIndex:0];
+    if([currentLanguage isEqualToString:@"sv-GB"] || [currentLanguage isEqualToString:@"ja-GB"] || [currentLanguage isEqualToString:@"en-GB"] || [currentLanguage isEqualToString:@"en-US"])
     {
-        [self showLoginScreen:YES];
+        NSLog(@"supported");
+        
     }
+    else
+    {
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"" message:@"Sorry, we don't currently support this language. We do however support: English, Japanese & Swedish" delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil];
+        [alert show];
+        NSLog(currentLanguage);
+    }
+    
+    [self getLoginStatus];
     
     return YES;
 }
@@ -86,6 +89,15 @@
     [[UIApplication sharedApplication] presentLocalNotificationNow:notification];
 }
 
+- (void)beaconManager:(id)manager didExitRegion:(CLBeaconRegion *)region {
+    
+    // Present notification to user on entry of region
+    UILocalNotification *notification = [UILocalNotification new];
+    notification.alertBody =
+    @"Leaving so soon? Hope to see you again!";
+    [[UIApplication sharedApplication] presentLocalNotificationNow:notification];
+}
+
 -(void) showLoginScreen:(BOOL)animated
 {
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
@@ -94,6 +106,21 @@
     [self.window.rootViewController presentViewController:viewController
                                                  animated:animated
                                                completion:nil];
+}
+
+-(void) getLoginStatus
+{
+    // Present login screen if user has not yet logged in
+    NSUserDefaults *standardDefaults = [NSUserDefaults standardUserDefaults];
+    if([[NSUserDefaults standardUserDefaults] objectForKey:@"loggedin"] == nil) {
+        
+        [self showLoginScreen:YES];
+        
+    }
+    else if([[standardDefaults stringForKey:@"loggedin"] isEqual: @"out"])
+    {
+        [self showLoginScreen:YES];
+    }
 }
 
 @end

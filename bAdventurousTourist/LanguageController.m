@@ -1,14 +1,14 @@
 //  LanguageManager.m
 
-#import "LanguageManager.h"
+#import "LanguageController.h"
 
-@implementation LanguageManager
+@implementation LanguageController
 @synthesize currentLanguage;
 NSString *swedish = @"sv-GB";
 NSString *japanese = @"ja-GB";
 
 
--(NSString *)presentCurrentLanguage
+-(NSString *)getCurrentLanguage
 {
     currentLanguage = [[NSLocale preferredLanguages] objectAtIndex:0];
     if([currentLanguage isEqualToString:swedish])

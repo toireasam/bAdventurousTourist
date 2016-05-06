@@ -13,5 +13,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *artefactNameLbl;
 @property (nonatomic, strong) NSString *artefactNameTxt;
 @property (weak, nonatomic) IBOutlet iCarousel *carousel;
+@property (weak, nonatomic) IBOutlet UITextView *pinchText;
+@property (strong, nonatomic) IBOutlet UIPinchGestureRecognizer *pinchRecog;
 
 @end

@@ -1,8 +1,8 @@
 //  NearablesParseManager.m
 
-#import "NearablesParseManager.h"
+#import "NearablesParseController.h"
 
-@implementation NearablesParseManager
+@implementation NearablesParseController
 
 - (id)init
 {

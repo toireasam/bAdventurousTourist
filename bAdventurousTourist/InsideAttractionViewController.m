@@ -5,7 +5,7 @@
 #import "FurtherInfoViewController.h"
 #import "SettingsViewController.h"
 #import "TouristLocationArtefact.h"
-#import "NearablesParseManager.h"
+#import "NearablesParseController.h"
 
 @interface ESTTableViewCell : UITableViewCell
 
@@ -38,7 +38,7 @@
 @synthesize touristLocationName;
 NSString *museumsOn;
 TouristLocationArtefact *locationPainting;
-NearablesParseManager *nearablesParseManager;
+NearablesParseController *nearablesParseManager;
 TouristLocation *insideTouristLocation;
 
 -(void)viewWillAppear:(BOOL)animated
@@ -52,7 +52,7 @@ TouristLocation *insideTouristLocation;
     [super viewDidLoad];
     
     locationPainting = [[TouristLocationArtefact alloc]init];
-    nearablesParseManager = [[NearablesParseManager alloc]init];
+    nearablesParseManager = [[NearablesParseController alloc]init];
     
     self.tableView = [[UITableView alloc] initWithFrame:self.view.frame];
     self.tableView.delegate = self;
@@ -134,44 +134,7 @@ NSMutableArray *insideTouristAttractionBeacons;
     return [insideTouristAttractionBeacons count];
 }
 
-//- (UIImage *)imageForNearableType:(ESTNearableType)type
-//{
-//    switch (type)
-//    {
-//        case ESTNearableTypeBag:
-//            return [UIImage imageNamed:@"museum"];
-//            break;
-//        case ESTNearableTypeBike:
-//            return [UIImage imageNamed:@"museum"];
-//            break;
-//        case ESTNearableTypeCar:
-//            return [UIImage imageNamed:@"museum"];
-//            break;
-//        case ESTNearableTypeFridge:
-//            return [UIImage imageNamed:@"museum"];
-//            break;
-//        case ESTNearableTypeBed:
-//            return [UIImage imageNamed:@"museum"];
-//            break;
-//        case ESTNearableTypeChair:
-//            return [UIImage imageNamed:@"museum"];
-//            break;
-//        case ESTNearableTypeShoe:
-//            return [UIImage imageNamed:@"museum"];
-//            break;
-//        case ESTNearableTypeDoor:
-//            return [UIImage imageNamed:@"museum"];
-//            break;
-//        case ESTNearableTypeDog:
-//            return [UIImage imageNamed:@"museum"];
-//            break;
-//        default:
-//            return [UIImage imageNamed:@"museum"];
-//            break;
-//    }
-//}
-
-- (UIImage *)artefactImage:(NSString *)identifier
+- (UIImage *)getArtefactImage:(NSString *)identifier
 {
     if([identifier  isEqual: @"6e3972e4eacf21c7"])
     {
@@ -213,7 +176,7 @@ NSMutableArray *insideTouristAttractionBeacons;
     
     UIImageView *imageView = [[UIImageView alloc]initWithFrame:CGRectMake(self.view.frame.size.width - 100, 25, 30, 30)];
     imageView.contentMode = UIViewContentModeScaleAspectFill;
-    [imageView setImage:[self artefactImage:nearable.identifier]];
+    [imageView setImage:[self getArtefactImage:nearable.identifier]];
     [cell.contentView addSubview:imageView];
     
     if (indexPath.row == 0) // Top row
@@ -227,7 +190,6 @@ NSMutableArray *insideTouristAttractionBeacons;
     }
     cell.textLabel.font = [UIFont systemFontOfSize:18.0];
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-    
     return cell;
 }
 
@@ -251,6 +213,5 @@ NSMutableArray *insideTouristAttractionBeacons;
         nextVC.artefactNameTxt = locationPainting.artefactName;
     }
 }
-
 
 @end

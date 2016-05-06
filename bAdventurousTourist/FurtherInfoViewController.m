@@ -2,7 +2,7 @@
 
 #import "FurtherInfoViewController.h"
 #import "TouristLocationArtefact.h"
-#import "LanguageManager.h"
+#import "LanguageController.h"
 #import "iCarousel.h"
 #import "TouristLocationArtefact.h"
 
@@ -25,20 +25,23 @@ TouristLocationArtefact *locationArtefact;
     locationArtefact = [[TouristLocationArtefact alloc]init];
     locationArtefact.artefactName = artefactNameTxt;
     
-    LanguageManager *languageManager = [[LanguageManager alloc]init];
-    currentLanguage = [languageManager presentCurrentLanguage];
+    LanguageController *languageManager = [[LanguageController alloc]init];
+    currentLanguage = [languageManager getCurrentLanguage];
     
-    [self getLocationInfoAndDisplay];
-    [self getLocationImagesAndDisplay];
+    [self getArtefactInfo];
+    [self getArtefactImages];
     
     // Configure carousel
     _carousel.type = iCarouselTypeCoverFlow2;
     
     self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
     
+    _pinchRecog = [[UIPinchGestureRecognizer alloc] initWithTarget:self action:@selector(changeFontSize:)];
+    [_pinchText addGestureRecognizer:_pinchRecog];
+    
 }
 
--(void)getLocationImagesAndDisplay
+-(void)getArtefactImages
 {
     imagesOfAttraction = [NSMutableArray array];
     
@@ -59,7 +62,13 @@ TouristLocationArtefact *locationArtefact;
     }];
 }
 
--(void)getLocationInfoAndDisplay
+- (void)changeFontSize:(UIPinchGestureRecognizer *)gestureRecognizer {
+    _pinchText = (UITextView *)gestureRecognizer.view;
+    float yourFontSize = gestureRecognizer.scale * 18;
+    _pinchText.font = [UIFont systemFontOfSize:yourFontSize];
+}
+
+-(void)getArtefactInfo
 {
     PFQuery *query = [PFQuery queryWithClassName:currentLanguage];
     [query whereKey:@"InsideTouristLocationArtefact" equalTo:locationArtefact.artefactName];
@@ -67,8 +76,6 @@ TouristLocationArtefact *locationArtefact;
         if (!error)
         {
             // The find succeeded.
-            NSLog(@"Successfully retrieved %lu scores.", (unsigned long)objects.count);
-            // Do something with the found objects
             if(objects.count == 0)
             {
                 // No beacons were found

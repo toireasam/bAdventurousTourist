@@ -1,9 +1,9 @@
 //  BeaconParseManager.m
 
-#import "BeaconParseManager.h"
+#import "BeaconParseController.h"
 #import <EstimoteSDK/EstimoteSDK.h>
 
-@implementation BeaconParseManager
+@implementation BeaconParseController
 
 - (id)init
 {
@@ -32,7 +32,7 @@
     }
 }
 
-- (NSString *)identifyBeacon:(NSString *)minor
+- (NSString *)getBeaconTouristLocation:(NSString *)minor
 {
     if([minor isEqualToString:@"10261"])
     {

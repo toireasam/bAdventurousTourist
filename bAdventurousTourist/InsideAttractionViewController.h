@@ -2,7 +2,7 @@
 
 #import <UIKit/UIKit.h>
 #import <Parse/Parse.h>
-#import "NearablesParseManager.h"
+#import "NearablesParseController.h"
 #import "TouristLocation.h"
 
 @interface InsideAttractionViewController : UIViewController

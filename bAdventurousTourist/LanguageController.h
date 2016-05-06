@@ -2,9 +2,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface LanguageManager : NSObject
+@interface LanguageController : NSObject
 
--(NSString *)presentCurrentLanguage;
+-(NSString *)getCurrentLanguage;
 @property (weak,nonatomic) NSString *currentLanguage;
 
 @end

@@ -48,14 +48,14 @@ User *currentUser;
 
 - (IBAction)login:(id)sender {
     
-    [self checkCredentials];
+    [self checkCredentials: self.usernameTxt.text andPassword:self.passwordTxt.text];
 }
 
--(void)checkCredentials
+-(void)checkCredentials:(NSString *)username andPassword:(NSString*)password
 {
     __weak typeof(self) weakSelf = self;
-    [PFUser logInWithUsernameInBackground:self.usernameTxt.text
-                                 password:self.passwordTxt.text
+    [PFUser logInWithUsernameInBackground:username
+                                 password:password
                                     block:^(PFUser *pfUser, NSError *error)
      {
          if (pfUser && !error) {
@@ -76,10 +76,10 @@ User *currentUser;
                  
                  currentUser = [[User alloc]init];
                  currentUser.username = [[PFUser currentUser] objectForKey:@"username"];
-                 [self setUsernameDefaults:currentUser.username];
+                 [self setUsername:currentUser.username];
                  
-                 currentUser.isLoggedIn = TRUE;
-                 [self setLoginStatusDefaults:@"in"];
+
+                 [self setUserLogin:@"in" andUser:currentUser];
                  
                  // Send notification
                  [[NSNotificationCenter defaultCenter] postNotificationName:@"loginSuccessful" object:self];
@@ -123,13 +123,14 @@ User *currentUser;
     }
 }
 
--(void)setLoginStatusDefaults:(NSString *)loggedInStatus
+-(void)setUserLogin:(NSString *)loggedInStatus andUser:(User*)currentUser
 {
     NSUserDefaults *standardDefaults = [NSUserDefaults standardUserDefaults];
     [standardDefaults setObject:loggedInStatus forKey:@"loggedin"];
+    currentUser.isLoggedIn = TRUE;
 }
 
--(void)setUsernameDefaults:(NSString *)username
+-(void)setUsername:(NSString *)username
 {
     NSUserDefaults *standardDefaults = [NSUserDefaults standardUserDefaults];
     [standardDefaults setObject:username forKey:@"username"];
