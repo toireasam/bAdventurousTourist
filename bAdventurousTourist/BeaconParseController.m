@@ -27,7 +27,6 @@
     }
     else
     {
-        NSLog(@"%ld", (long)[minor integerValue]);
         return @"unknown";
     }
 }
@@ -44,7 +43,6 @@
     }
     else
     {
-        NSLog(@"%ld", (long)[minor integerValue]);
         return @"unknown";
     }
 }

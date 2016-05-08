@@ -73,8 +73,8 @@ TouristLocation *insideTouristLocation;
     
     NSUserDefaults *standardDefaults = [NSUserDefaults standardUserDefaults];
     
-    if ([[standardDefaults stringForKey:@"museumSwitchKey"] isEqual: @"On"]) {
-        
+    if ([[standardDefaults stringForKey:@"museumSwitchKey"] isEqual: @"On"])
+    {
         museumsOn = @"true";
     }
     else
@@ -108,7 +108,6 @@ TouristLocation *insideTouristLocation;
         {
             
         }
-        
     }
     
     [self.tableView reloadData];
@@ -118,7 +117,7 @@ NSMutableArray *insideTouristAttractionBeacons;
 - (void)nearableManager:(ESTNearableManager *)manager
       didRangeNearables:(NSArray *)nearables
                withType:(ESTNearableType)type
-{    
+{
     self.nearablesArray = nearables;
     
     [self getRelevantNearables];

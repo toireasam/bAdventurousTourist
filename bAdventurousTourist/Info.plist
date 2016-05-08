@@ -23,23 +23,7 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSLocationAlwaysUsageDescription</key>
-	<string>“We use low-energy Bluetooth and iBeacon devices installed around tourist attractions to find you nearby the attraction, and provide relevant information.
-
-“We use low-energy Bluetooth and iBeacon devices installed at the airport to find you inside the hall, and provide relevant information. You don’t need to know security wait times when you’re already at the gate, do you?”
-
-“We use low-energy Bluetooth and iBeacon devices installed at the airport to find you inside the hall, and provide relevant information. You don’t need to know security wait times when you’re already at the gate, do you?”
-
-“We use low-energy Bluetooth and iBeacon devices installed at the airport to find you inside the hall, and provide relevant information. You don’t need to know security wait times when you’re already at the gate, do you?”
-
-“We use low-energy Bluetooth and iBeacon devices installed at the airport to find you inside the hall, and provide relevant information. You don’t need to know security wait times when you’re already at the gate, do you?”
-
-“We use low-energy Bluetooth and iBeacon devices installed at the airport to find you inside the hall, and provide relevant information. You don’t need to know security wait times when you’re already at the gate, do you?”
-
-“We use low-energy Bluetooth and iBeacon devices installed at the airport to find you inside the hall, and provide relevant information. You don’t need to know security wait times when you’re already at the gate, do you?”
-
-“We use low-energy Bluetooth and iBeacon devices installed at the airport to find you inside the hall, and provide relevant information."
-
-</string>
+	<string>“We use low-energy Bluetooth and iBeacon devices installed at the airport to find you inside the hall, and provide relevant information.&quot;</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>bluetooth-central</string>

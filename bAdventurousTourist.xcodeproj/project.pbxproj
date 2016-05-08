@@ -15,8 +15,7 @@
 		B2CD75F71CCCF81A00428164 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD75F61CCCF81A00428164 /* AppDelegate.m */; };
 		B2CD75FD1CCCF81A00428164 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2CD75FB1CCCF81A00428164 /* Main.storyboard */; };
 		B2CD75FF1CCCF81A00428164 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2CD75FE1CCCF81A00428164 /* Assets.xcassets */; };
-		B2CD760D1CCCF81A00428164 /* bAdventurousTouristTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD760C1CCCF81A00428164 /* bAdventurousTouristTests.m */; };
-		B2CD76181CCCF81A00428164 /* bAdventurousTouristUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD76171CCCF81A00428164 /* bAdventurousTouristUITests.m */; };
+		B2CD760D1CCCF81A00428164 /* SignupViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CD760C1CCCF81A00428164 /* SignupViewControllerTests.m */; };
 		B2CD76301CCCF97400428164 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2CD762F1CCCF97400428164 /* AudioToolbox.framework */; };
 		B2CD76321CCCF97D00428164 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2CD76311CCCF97D00428164 /* CFNetwork.framework */; };
 		B2CD76341CCCF98500428164 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2CD76331CCCF98500428164 /* CoreGraphics.framework */; };
@@ -96,11 +95,9 @@
 		B2CD75FE1CCCF81A00428164 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2CD76031CCCF81A00428164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2CD76081CCCF81A00428164 /* bAdventurousTouristTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bAdventurousTouristTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2CD760C1CCCF81A00428164 /* bAdventurousTouristTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bAdventurousTouristTests.m; sourceTree = "<group>"; };
+		B2CD760C1CCCF81A00428164 /* SignupViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignupViewControllerTests.m; sourceTree = "<group>"; };
 		B2CD760E1CCCF81A00428164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2CD76131CCCF81A00428164 /* bAdventurousTouristUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bAdventurousTouristUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2CD76171CCCF81A00428164 /* bAdventurousTouristUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bAdventurousTouristUITests.m; sourceTree = "<group>"; };
-		B2CD76191CCCF81A00428164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2CD762F1CCCF97400428164 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		B2CD76311CCCF97D00428164 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		B2CD76331CCCF98500428164 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -223,7 +220,6 @@
 				B2CD76541CCCFA3D00428164 /* Parse */,
 				B2CD75F11CCCF81A00428164 /* bAdventurousTourist */,
 				B2CD760B1CCCF81A00428164 /* bAdventurousTouristTests */,
-				B2CD76161CCCF81A00428164 /* bAdventurousTouristUITests */,
 				B2CD75F01CCCF81A00428164 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -266,19 +262,10 @@
 			isa = PBXGroup;
 			children = (
 				B2B4FA5A1CDBDDDD0092AD0B /* LanguageManagerTests.m */,
-				B2CD760C1CCCF81A00428164 /* bAdventurousTouristTests.m */,
+				B2CD760C1CCCF81A00428164 /* SignupViewControllerTests.m */,
 				B2CD760E1CCCF81A00428164 /* Info.plist */,
 			);
 			path = bAdventurousTouristTests;
-			sourceTree = "<group>";
-		};
-		B2CD76161CCCF81A00428164 /* bAdventurousTouristUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B2CD76171CCCF81A00428164 /* bAdventurousTouristUITests.m */,
-				B2CD76191CCCF81A00428164 /* Info.plist */,
-			);
-			path = bAdventurousTouristUITests;
 			sourceTree = "<group>";
 		};
 		B2CD76541CCCFA3D00428164 /* Parse */ = {
@@ -551,7 +538,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2CD760D1CCCF81A00428164 /* bAdventurousTouristTests.m in Sources */,
+				B2CD760D1CCCF81A00428164 /* SignupViewControllerTests.m in Sources */,
 				B2B4FA5C1CDBDDDD0092AD0B /* LanguageManagerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -560,7 +547,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2CD76181CCCF81A00428164 /* bAdventurousTouristUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

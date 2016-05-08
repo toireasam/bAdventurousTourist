@@ -7,7 +7,6 @@
 NSString *swedish = @"sv-GB";
 NSString *japanese = @"ja-GB";
 
-
 -(NSString *)getCurrentLanguage
 {
     currentLanguage = [[NSLocale preferredLanguages] objectAtIndex:0];

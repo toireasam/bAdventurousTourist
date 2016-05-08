@@ -17,7 +17,6 @@
 - (IBAction)logout:(id)sender {
     
     [self setLogoutDefaults];
-    
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     LoginViewController *viewController = (LoginViewController *)[storyboard instantiateViewControllerWithIdentifier:@"loginScreen"];
     [viewController setModalPresentationStyle:UIModalPresentationFullScreen];
@@ -61,12 +60,12 @@
     
     NSUserDefaults *standardDefaults = [NSUserDefaults standardUserDefaults];
     
-    if (sender.on == 0) {
-        
+    if (sender.on == 0)
+    {
         [standardDefaults setObject:@"Off" forKey:@"museumSwitchKey"];
         
-    } else if (sender.on == 1) {
-        
+    } else if (sender.on == 1)
+    {
         [standardDefaults setObject:@"On" forKey:@"museumSwitchKey"];
         
     }
@@ -78,14 +77,13 @@
     
     NSUserDefaults *standardDefaults = [NSUserDefaults standardUserDefaults];
     
-    if (sender.on == 0) {
-        
+    if (sender.on == 0)
+    {
         [standardDefaults setObject:@"Off" forKey:@"cityhallSwitchKey"];
         
-    } else if (sender.on == 1) {
-        
+    } else if (sender.on == 1)
+    {
         [standardDefaults setObject:@"On" forKey:@"cityhallSwitchKey"];
-        
     }
     
     [standardDefaults synchronize];

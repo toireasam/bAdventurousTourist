@@ -15,7 +15,6 @@
 @implementation TouristLocationViewController
 
 NSMutableArray *tableData;
-NSString *touristLocationOutsideSelected;
 BeaconParseController *beaconParseManager;
 TouristLocation *touristLocation;
 

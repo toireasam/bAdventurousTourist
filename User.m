@@ -11,6 +11,8 @@
 @implementation User
 
 @synthesize username;
+@synthesize email;
+@synthesize userType;
 @synthesize isLoggedIn;
 
 @end

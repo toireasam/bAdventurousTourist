@@ -26,7 +26,6 @@ User *currentUser;
     [self.view addGestureRecognizer:tapViewGR];
     
     loginBtn.userInteractionEnabled = NO;
-    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -78,7 +77,7 @@ User *currentUser;
                  currentUser.username = [[PFUser currentUser] objectForKey:@"username"];
                  [self setUsername:currentUser.username];
                  
-
+                 
                  [self setUserLogin:@"in" andUser:currentUser];
                  
                  // Send notification
@@ -86,7 +85,6 @@ User *currentUser;
                  
                  // Dismiss login screen
                  [self dismissViewControllerAnimated:YES completion:nil];
-                 
              }
          }
          else

@@ -1,4 +1,3 @@
-
 //  NearablesParseManager.h
 
 #import <Foundation/Foundation.h>

@@ -48,7 +48,8 @@ TouristLocationArtefact *locationArtefact;
     PFQuery *query = [PFQuery queryWithClassName:@"InsideTouristLocation"];
     [query whereKey:@"InsideTouristLocationArtefact" equalTo:locationArtefact.artefactName];
     [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
-        if (!error) {
+        if (!error)
+        {
             // The find succeeded. The first 100 objects are available in objects
             [imagesOfAttraction addObjectsFromArray:objects];
             [_carousel reloadData];
@@ -63,9 +64,11 @@ TouristLocationArtefact *locationArtefact;
 }
 
 - (void)changeFontSize:(UIPinchGestureRecognizer *)gestureRecognizer {
+    
     _pinchText = (UITextView *)gestureRecognizer.view;
     float yourFontSize = gestureRecognizer.scale * 18;
     _pinchText.font = [UIFont systemFontOfSize:yourFontSize];
+    
 }
 
 -(void)getArtefactInfo
@@ -83,9 +86,6 @@ TouristLocationArtefact *locationArtefact;
             }
             for (PFObject *object in objects)
             {
-                
-                NSLog(@"%@", object.objectId);
-                NSLog(@"%@",object);
                 artefactNameLbl.text = object[@"InsideTouristLocationArtefact"];
                 _pinchText.text = object[@"Information"];
                 _pinchText.textColor = [UIColor darkGrayColor];
@@ -98,7 +98,6 @@ TouristLocationArtefact *locationArtefact;
         }
         
     }];
-    
 }
 
 -(void)viewDidDisappear:(BOOL)animated
@@ -114,7 +113,7 @@ TouristLocationArtefact *locationArtefact;
 
 -(UIView *)carousel:(iCarousel *)carousel viewForItemAtIndex:(NSUInteger)index reusingView:(UIView *)view {
     
-    //create new view if no view is available for recycling
+    // Create new view if no view is available for recycling
     if (view == nil)
     {
         view = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 300.0f, 300.0f)];

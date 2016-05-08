@@ -1,4 +1,5 @@
 //  AppDelegate.m
+
 #import "AppDelegate.h"
 #import <EstimoteSDK/EstimoteSDK.h>
 #import "Parse/Parse.h"
@@ -43,14 +44,13 @@
     NSString *currentLanguage = [[NSLocale preferredLanguages] objectAtIndex:0];
     if([currentLanguage isEqualToString:@"sv-GB"] || [currentLanguage isEqualToString:@"ja-GB"] || [currentLanguage isEqualToString:@"en-GB"] || [currentLanguage isEqualToString:@"en-US"])
     {
-        NSLog(@"supported");
+        // Language is supported so no need t oshow alert
         
     }
     else
     {
         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"" message:@"Sorry, we don't currently support this language. We do however support: English, Japanese & Swedish" delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil];
         [alert show];
-        NSLog(currentLanguage);
     }
     
     [self getLoginStatus];
