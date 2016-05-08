@@ -49,3 +49,6 @@
 
 /* Class = "UITextField"; placeholder = "Password"; ObjectID = "xAl-GC-tAu"; */
 "xAl-GC-tAu.placeholder" = "パスワード";
+
+/* Class = "UILabel"; text = "Text too small? Pinch it to zoom!";*/
+"6Gx-KH-i1f.text" = "テキストが小さすぎますか？ズームインすることをピンチ!";

@@ -50,3 +50,6 @@
 /* Class = "UITextField"; placeholder = "Password"; ObjectID = "xAl-GC-tAu"; */
 "xAl-GC-tAu.placeholder" = "Lösenord";
 
+/* Class = "UILabel"; text = "Text too small? Pinch it to zoom!";*/
+"6Gx-KH-i1f.text" = "Text för liten ? Nyp det att zooma!";
+
